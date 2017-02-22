@@ -1,0 +1,977 @@
+!SESSION 2017-02-09 15:48:16.034 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-09 15:49:22.218
+!MESSAGE Indexed 'servo_bsp' (94 sources, 67 headers) in 1.44 sec: 2,286 declarations; 9,993 references; 125 unresolved inclusions; 5 syntax errors; 203 unresolved names (1.63%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-09 15:49:23.609
+!MESSAGE Indexed 'servo' (1 sources, 13 headers) in 0.04 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+!SESSION 2017-02-09 15:54:56.055 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.ui 4 4 2017-02-09 15:55:01.017
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2017-02-09 15:55:01.871
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2017-02-09 15:55:01.871
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2017-02-09 15:55:01.871
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2017-02-09 15:55:01.871
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2017-02-09 15:55:01.871
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2017-02-09 15:55:01.871
+!MESSAGE Unable to restore perspective: Workspace - Nios II.
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-02-09 15:55:01.871
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2017-02-09 15:55:01.871
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2017-02-09 15:55:01.871
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2017-02-09 15:55:01.871
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2017-02-09 15:55:01.871
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2017-02-09 15:55:01.871
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2017-02-09 15:55:01.871
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2017-02-09 15:55:01.871
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2017-02-09 15:55:01.871
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2017-02-09 15:55:01.871
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2017-02-09 15:55:01.871
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2017-02-09 15:55:01.871
+!MESSAGE OK
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-09 15:55:11.482
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --instance=-1 --stop --sidp=0x1109058 --id=0x0 --timestamp=1486679751]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-09 15:55:12.556
+!MESSAGE Failed Executing: [nios2-download, '--cable=', --instance=-1, --stop, --sidp=0x1109058, --id=0x0, --timestamp=1486679751] return code: 16
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-09 15:55:12.599
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --instance=-1 --go --sidp=0x1109058 --id=0x0 --timestamp=1486679751 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-09 15:55:13.756
+!MESSAGE Failed Executing: [nios2-download, '--cable=', --instance=-1, --go, --sidp=0x1109058, --id=0x0, --timestamp=1486679751, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 16
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-09 15:55:13.760
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-09 15:55:43.723
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --instance=-1 --stop --sidp=0x1109058 --id=0x0 --timestamp=1486679751]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-09 15:55:44.776
+!MESSAGE Failed Executing: [nios2-download, '--cable=', --instance=-1, --stop, --sidp=0x1109058, --id=0x0, --timestamp=1486679751] return code: 16
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-09 15:55:44.819
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --instance=-1 --go --sidp=0x1109058 --id=0x0 --timestamp=1486679751 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-09 15:55:45.947
+!MESSAGE Failed Executing: [nios2-download, '--cable=', --instance=-1, --go, --sidp=0x1109058, --id=0x0, --timestamp=1486679751, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 16
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-09 15:55:45.952
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-09 15:56:16.252
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1486679751]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-09 15:56:17.615
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1486679751 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-09 15:57:22.367
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-09 15:57:22.551
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1486679751]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-09 15:57:23.914
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1486679751 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+!SESSION 2017-02-13 14:53:41.264 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-13 15:08:11.539
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487023454]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-13 15:08:13.035
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487023454 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-13 15:09:04.288
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-13 15:09:04.544
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487023454]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-13 15:09:06.097
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487023454 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+!SESSION 2017-02-13 15:16:51.451 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-13 15:17:18.594
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487024085]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-13 15:17:20.104
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487024085 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-13 15:18:53.826
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-13 15:18:54.018
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487024085]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-13 15:18:55.407
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487024085 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+!SESSION 2017-02-15 10:02:27.836 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.ui 4 0 2017-02-15 10:02:41.829
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTError: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)])
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3563)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3212)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+Caused by: org.eclipse.swt.SWTError: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+	at org.eclipse.swt.SWT.error(SWT.java:4308)
+	at org.eclipse.swt.browser.Mozilla.initMozilla(Mozilla.java:1826)
+	at org.eclipse.swt.browser.Mozilla.create(Mozilla.java:687)
+	at org.eclipse.swt.browser.Browser.<init>(Browser.java:99)
+	at org.eclipse.epp.usagedata.internal.ui.wizards.TermsOfUseWizardPage.createControl(TermsOfUseWizardPage.java:48)
+	at org.eclipse.jface.wizard.Wizard.createPageControls(Wizard.java:174)
+	at org.eclipse.jface.wizard.WizardDialog.createPageControls(WizardDialog.java:736)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:608)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1089)
+	at org.eclipse.jface.window.Window.open(Window.java:790)
+	at org.eclipse.epp.usagedata.internal.ui.uploaders.AskUserUploader$1.run(AskUserUploader.java:65)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	... 23 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:04:43.026
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487178009]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:04:44.519
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487178009 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:06:45.017
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:06:45.211
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487178009]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:06:46.600
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487178009 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:08:14.688
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:08:14.877
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487178009]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:08:16.407
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487178009 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:09:53.985
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:09:54.562
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487178009]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:09:55.930
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487178009 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-15 10:17:36.611
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1487178879", expected: "1487178009".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-15 10:17:36.619
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1487178879", expected: "1487178009".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-15 10:18:04.905
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1487178879", expected: "1487178009".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-15 10:18:04.929
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1487178879", expected: "1487178009".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2017-02-15 10:18:15.053 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:18:45.960
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487178879]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:18:47.466
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487178879 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:19:17.021
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:19:17.211
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487178879]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:19:18.579
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487178879 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+!SESSION 2017-02-15 10:24:09.654 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:25:01.890
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487179321]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:25:03.402
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487179321 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:26:01.538
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:26:01.735
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487179321]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:26:03.106
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487179321 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:26:19.075
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:26:19.266
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487179321]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:26:20.636
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487179321 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:26:50.465
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:26:50.659
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487179321]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:26:52.025
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487179321 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:27:22.649
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:27:22.835
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109058 --id=0x0 --timestamp=1487179321]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-15 10:27:24.223
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109058 --id=0x0 --timestamp=1487179321 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+!SESSION 2017-02-22 10:46:33.698 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.ui 4 0 2017-02-22 10:46:49.926
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTError: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)])
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3563)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3212)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+Caused by: org.eclipse.swt.SWTError: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+	at org.eclipse.swt.SWT.error(SWT.java:4308)
+	at org.eclipse.swt.browser.Mozilla.initMozilla(Mozilla.java:1826)
+	at org.eclipse.swt.browser.Mozilla.create(Mozilla.java:687)
+	at org.eclipse.swt.browser.Browser.<init>(Browser.java:99)
+	at org.eclipse.epp.usagedata.internal.ui.wizards.TermsOfUseWizardPage.createControl(TermsOfUseWizardPage.java:48)
+	at org.eclipse.jface.wizard.Wizard.createPageControls(Wizard.java:174)
+	at org.eclipse.jface.wizard.WizardDialog.createPageControls(WizardDialog.java:736)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:608)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1089)
+	at org.eclipse.jface.window.Window.open(Window.java:790)
+	at org.eclipse.epp.usagedata.internal.ui.uploaders.AskUserUploader$1.run(AskUserUploader.java:65)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	... 23 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:15:47.760
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109068 --id=0x0 --timestamp=1487786376]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:15:49.280
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109068 --id=0x0 --timestamp=1487786376 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:17:33.452
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:17:53.657
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109068 --id=0x0 --timestamp=1487786376]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:17:55.091
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109068 --id=0x0 --timestamp=1487786376 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+!SESSION 2017-02-22 11:29:10.091 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:30:39.719
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109068 --id=0x0 --timestamp=1487788036]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:30:41.227
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109068 --id=0x0 --timestamp=1487788036 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:31:35.930
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:31:36.125
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109068 --id=0x0 --timestamp=1487788036]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:31:37.512
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109068 --id=0x0 --timestamp=1487788036 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:31:51.289
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:31:51.514
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109068 --id=0x0 --timestamp=1487788036]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:31:56.792
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109068 --id=0x0 --timestamp=1487788036 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:32:43.559
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109068 --id=0x0 --timestamp=1487788036]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:32:44.923
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109068 --id=0x0 --timestamp=1487788036 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:41:08.090
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:41:08.277
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109068 --id=0x0 --timestamp=1487788036]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:41:09.648
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109068 --id=0x0 --timestamp=1487788036 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:42:46.776
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:42:46.985
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109068 --id=0x0 --timestamp=1487788036]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:42:48.353
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109068 --id=0x0 --timestamp=1487788036 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:44:00.522
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:44:00.717
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109068 --id=0x0 --timestamp=1487788036]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:44:02.080
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109068 --id=0x0 --timestamp=1487788036 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+!SESSION 2017-02-22 11:57:20.659 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:59:19.595
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109078 --id=0x0 --timestamp=1487789724]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 11:59:21.110
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109078 --id=0x0 --timestamp=1487789724 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:01:18.076
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:01:18.298
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109078 --id=0x0 --timestamp=1487789724]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:01:19.665
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109078 --id=0x0 --timestamp=1487789724 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+!SESSION 2017-02-22 12:11:31.669 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:12:08.391
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x1109078 --id=0x0 --timestamp=1487790545]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:12:09.898
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x1109078 --id=0x0 --timestamp=1487790545 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+!SESSION 2017-02-22 12:45:00.027 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:46:43.842
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:46:46.312
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:46:46.362
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:46:48.766
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:46:48.776
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:46:59.437
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:47:01.761
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:47:01.807
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:47:04.195
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:47:04.205
+!MESSAGE Downloading ELF Process failed
+!SESSION 2017-02-22 12:47:48.054 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:49:12.670
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:49:14.977
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:49:15.041
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:49:17.420
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:49:17.435
+!MESSAGE Downloading ELF Process failed
+!SESSION 2017-02-22 12:57:23.670 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:58:37.346
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:58:39.814
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:58:39.864
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:58:42.265
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:58:42.280
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:59:51.237
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:59:53.559
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 12:59:53.607
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:59:55.997
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 12:59:56.008
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:00:13.482
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:00:15.803
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:00:15.848
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:00:18.243
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:00:18.254
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:03:45.785
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:03:48.265
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:03:48.315
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:03:50.816
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:03:50.830
+!MESSAGE Downloading ELF Process failed
+!SESSION 2017-02-22 13:09:03.182 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:09:40.960
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:09:42.151
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:09:42.204
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:09:43.511
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:09:43.523
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:10:58.735
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.7]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:11:01.059
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.7]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:11:01.110
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.7]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:11:03.495
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.7]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:11:03.507
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:12:30.677
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.7]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:12:32.998
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.7]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:12:33.048
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.7]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 --reset-target /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:12:34.944
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.7]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, --reset-target, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:12:34.954
+!MESSAGE Downloading ELF Process failed
+!SESSION 2017-02-22 13:17:40.735 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:25:05.225
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:25:07.690
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:25:07.753
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:25:10.146
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:25:10.158
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-22 13:27:05.453
+!MESSAGE Indexed '2_servo_bsp' (94 sources, 67 headers) in 1.21 sec: 2,286 declarations; 9,993 references; 125 unresolved inclusions; 5 syntax errors; 203 unresolved names (1.63%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-22 13:27:06.832
+!MESSAGE Indexed '2_servo' (1 sources, 13 headers) in 0.07 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:28:45.247
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:28:47.574
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:28:47.624
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/2_servo/2_servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:28:50.028
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/2_servo/2_servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:28:50.039
+!MESSAGE Downloading ELF Process failed
+!SESSION 2017-02-22 13:40:04.877 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.debug.core 4 103 2017-02-22 13:40:32.470
+!MESSAGE Project 2_servo does not exist. Please check that your launch configuration specifies a valid project in your workspace.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:41:01.519
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:41:03.990
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:41:04.041
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:41:06.444
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:41:06.455
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:41:25.972
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:41:28.294
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:41:28.345
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:41:30.734
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:41:30.746
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:42:05.015
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:42:07.338
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:42:07.387
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:42:09.768
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:42:09.779
+!MESSAGE Downloading ELF Process failed
+!SESSION 2017-02-22 13:49:59.231 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:51:06.692
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1109098]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:51:09.157
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x1109098] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:51:09.209
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1109098 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:51:11.608
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x1109098, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 13:51:11.626
+!MESSAGE Downloading ELF Process failed
+!SESSION 2017-02-22 13:57:44.214 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:58:24.598
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x1109098 --id=0x0 --timestamp=1487796946]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 13:58:26.119
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x1109098 --id=0x0 --timestamp=1487796946 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:00:30.345
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:00:30.567
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x1109098 --id=0x0 --timestamp=1487796946]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:00:31.939
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x1109098 --id=0x0 --timestamp=1487796946 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+!SESSION 2017-02-22 14:08:02.079 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:09:05.614
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x1109098 --id=0x0 --timestamp=1487797547]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:09:07.120
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x1109098 --id=0x0 --timestamp=1487797547 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:10:08.818
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 14:10:14.870
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 14:10:14.883
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:10:45.633
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x1109098 --id=0x0 --timestamp=1487797547]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:10:47.004
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x1109098 --id=0x0 --timestamp=1487797547 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:15:02.630
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:15:02.841
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x1109098 --id=0x0 --timestamp=1487797547]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:15:04.208
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x1109098 --id=0x0 --timestamp=1487797547 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:18:48.172
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:18:48.376
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x1109098 --id=0x0 --timestamp=1487797547]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:18:49.744
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x1109098 --id=0x0 --timestamp=1487797547 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:19:21.274
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 14:19:27.325
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-02-22 14:19:27.336
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:19:44.259
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x1109098 --id=0x0 --timestamp=1487797547]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:19:45.634
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x1109098 --id=0x0 --timestamp=1487797547 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:24:00.614
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:24:00.812
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x1109098 --id=0x0 --timestamp=1487797547]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-02-22 14:24:02.179
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x1109098 --id=0x0 --timestamp=1487797547 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/servo.elf]

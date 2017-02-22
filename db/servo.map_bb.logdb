@@ -1,0 +1,5 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,niosII_system:u0|servo:servo_1|lpm_mult:Mult0|mult_q3t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,niosII_system:u0|servo:servo_0|lpm_mult:Mult0|mult_q3t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,niosII_system:u0|servo:servo_1|lpm_mult:Mult0|mult_q3t:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,niosII_system:u0|servo:servo_0|lpm_mult:Mult0|mult_q3t:auto_generated|mac_out4,

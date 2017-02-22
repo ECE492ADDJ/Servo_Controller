@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project 2_servo ****
+
+make all 
+Info: Building ../2_servo_bsp/
+make --no-print-directory -C ../2_servo_bsp/
+[BSP build complete]
+[2_servo build complete]
+
+**** Build Finished ****
