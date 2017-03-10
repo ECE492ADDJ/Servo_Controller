@@ -35,108 +35,89 @@
 #define   TASK_STACKSIZE       2048
 OS_STK    task1_stk[TASK_STACKSIZE];
 OS_STK    task2_stk[TASK_STACKSIZE];
-OS_STK	  task3_stk[TASK_STACKSIZE];
-OS_STK	  task4_stk[TASK_STACKSIZE];
+OS_STK    task3_stk[TASK_STACKSIZE];
 
 #define WAIT_FOREVER 		0
-#define QUEUE_SIZE 1
 
-OS_EVENT *servo1Queue;
-void *queue1Space[QUEUE_SIZE];
-OS_EVENT *servo2Queue;
-void *queue2Space[QUEUE_SIZE];
+OS_EVENT *servo1Sem;
+OS_EVENT *servo2Sem;
 INT8U err;
 
 /* Definition of Task Priorities */
 
 #define TASK1_PRIORITY      1
 #define TASK2_PRIORITY      2
-#define TASK3_PRIORITY		3
-#define TASK4_PRIORITY		4
+#define TASK3_PRIORITY      3
 
 /* Max rotation of our hardware is 60 degrees in either direction */
-#define MAX_ROTATION 60
-#define MIN_ROTATION -60
+#define MAX_ROTATION 100
+#define MIN_ROTATION -100
+
+int servo1Angle;
+int servo2Angle;
 
 /* Reads from keys 2 and 3, then changes the angle of servo 0 if pressed */
 void task1(void* pdata)
 {
-	 int *button3 = (int *) KEY_3_BASE;
-	 int button3Value;
+	 int button3Value, button2Value, button1Value, button0Value;
 
+	 int *button3 = (int *) KEY_3_BASE;
 	 int *button2 = (int *) KEY_2_BASE;
-	 int button2Value;
+	 int *button1 = (int *) KEY_1_BASE;
+	 int *button0 = (int *) KEY_0_BASE;
 
   while (1)
   { 
 	  button3Value = *button3;
 	  button2Value = *button2;
+	  button1Value = *button1;
+	  button0Value = *button0;
 
-	  if(button3Value == 0){
-		  OSQPost(servo1Queue, (int *) -1);
+	  if(button0Value == 0 || button1Value == 0){
+		  OSSemPend(servo2Sem, 0, &err);
+		  	  if(button0Value == 0){
+		  		servo2Angle--;
+		  	  }
+		  	  else{
+		  		servo2Angle++;
+		  	  }
+		  OSSemPost(servo2Sem);
 	  }
-	  else if(button2Value == 0){
-		  OSQPost(servo1Queue, (int *) 1);
+
+	  if(button3Value == 0 || button2Value == 0){
+		  OSSemPend(servo1Sem, 0, &err);
+		  	  if(button3Value == 0){
+		  		servo1Angle--;
+		  	  }
+		  	  else{
+		  		servo1Angle++;
+		  	  }
+		  OSSemPost(servo1Sem);
 	  }
 	  OSTimeDlyHMSM(0, 0, 0, 20);
   }
 }
+
 /* Sends the current angle to servo 0 */
 void task2(void* pdata)
 {
-	  int *servoAddr = (int *) SERVO_0_BASE;
-	  int angleDifference;
-	  int currAngle = 0;
-
+	int *servoAddr0 = (int *) SERVO_0_BASE;
+	int *servoAddr1 = (int *) SERVO_1_BASE;
   while (1){
-	angleDifference = (int) OSQPend(servo1Queue, WAIT_FOREVER, &err);
-	currAngle = currAngle + angleDifference;
-	if(currAngle > MAX_ROTATION)
-		currAngle = MAX_ROTATION;
-	else if(currAngle < MIN_ROTATION)
-		currAngle = MIN_ROTATION;
-
-	*servoAddr = currAngle;
+	*servoAddr0 = servo1Angle;
+	*servoAddr1 = servo2Angle;
+	OSTimeDlyHMSM(0, 0, 0, 20);
   }
 }
-/* Reads from keys 0 and 1, and moves servo 1 if pressed */
-void task3(void* pdata){
-	 int *button0 = (int *) KEY_0_BASE;
-		 int button0Value;
 
-		 int *button1 = (int *) KEY_1_BASE;
-		 int button1Value;
-
-	  while (1)
-	  {
-		  button0Value = *button0;
-		  button1Value = *button1;
-
-		  if(button0Value == 0){
-			  OSQPost(servo2Queue, (int *) 1);
-		  }
-		  else if(button1Value == 0){
-			  OSQPost(servo2Queue, (int *) -1);
-		  }
-		  OSTimeDlyHMSM(0, 0, 0, 20);
-	  }
-}
-
-/* Sends the required angle to servo 1 */
-void task4(void* pdata)
+/* Serial commmunication task */
+void task3(void* pdata)
 {
-	  int *servoAddr = (int *) SERVO_1_BASE;
-	  int angleDifference;
-	  int currAngle = 0;
-
   while (1){
-	angleDifference = (int) OSQPend(servo2Queue, WAIT_FOREVER, &err);
-	currAngle = currAngle + angleDifference;
-	if(currAngle > MAX_ROTATION)
-		currAngle = MAX_ROTATION;
-	else if(currAngle < MIN_ROTATION)
-		currAngle = MIN_ROTATION;
-	*servoAddr = currAngle;
+	  OSSemPend(servo1Sem, 0, &err);
+	  	  servo1Angle= (servo1Angle +10) % 60;
+	  OSSemPost(servo1Sem);
+	OSTimeDlyHMSM(0, 0, 1, 0);
   }
 }
 
@@ -146,11 +127,12 @@ int main(void)
 {
   printf("Reset!\n");
 
-  servo1Queue = OSQCreate(&queue1Space[0], QUEUE_SIZE);
-  servo2Queue = OSQCreate(&queue2Space[0], QUEUE_SIZE);
+  servo1Sem = OSSemCreate(1);
+  servo2Sem = OSSemCreate(1);
 
-  OSQPost(servo1Queue, (int *) 0);
-  OSQPost(servo2Queue, (int *) 0);
+
+  servo1Angle = 0;
+  servo2Angle = 0;
 
   OSTaskCreateExt(task1,
                   NULL,
@@ -174,24 +156,14 @@ int main(void)
                   0);
 
   OSTaskCreateExt(task3,
-                    NULL,
-                    (void *)&task3_stk[TASK_STACKSIZE-1],
-                    TASK3_PRIORITY,
-                    TASK3_PRIORITY,
-                    task3_stk,
-                    TASK_STACKSIZE,
-                    NULL,
-                    0);
-
-  OSTaskCreateExt(task4,
-                     NULL,
-                     (void *)&task4_stk[TASK_STACKSIZE-1],
-                     TASK4_PRIORITY,
-                     TASK4_PRIORITY,
-                     task4_stk,
-                     TASK_STACKSIZE,
-                     NULL,
-                     0);
+                  NULL,
+                  (void *)&task3_stk[TASK_STACKSIZE-1],
+                  TASK3_PRIORITY,
+                  TASK3_PRIORITY,
+                  task3_stk,
+                  TASK_STACKSIZE,
+                  NULL,
+                  0);
 
   OSStart();
   return 0;
