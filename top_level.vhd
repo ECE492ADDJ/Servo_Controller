@@ -28,6 +28,11 @@ library ieee;
 		--GPIO 0
 		GPIO_0	: out std_logic_vector (1 downto 0);
 		
+		-- UART
+		
+		UART_RXD 	: in	std_logic;
+		UART_TXD		: out std_logic;
+		
 		-- LCD on board
 		LCD_BLON	: out std_logic;
 		LCD_ON	: out std_logic;
@@ -105,7 +110,9 @@ architecture structure of top_level is
 				servo_1_conduit_end_0_gpio0             : out   std_logic;                                        -- gpio0
 				servo_1_conduit_end_0_LEDG              : out   std_logic_vector(1 downto 0);
 				key_1_external_connection_export      	 : in    std_logic                     := 'X';  -- button 1
-				key_0_external_connection_export      	 : in    std_logic                     := 'X'  -- button 0
+				key_0_external_connection_export      	 : in    std_logic                     := 'X';  -- button 0
+				rs232_0_external_interface_RXD          : in    std_logic                     := 'X';             -- RXD
+            rs232_0_external_interface_TXD          : out   std_logic                                         -- TXD
  );
     end component niosII_system;
 
@@ -161,7 +168,9 @@ begin
 				servo_1_conduit_end_0_gpio0             => GPIO_0(0),
 				servo_1_conduit_end_0_LEDG              => LEDG(3 downto 2),
 				key_1_external_connection_export      	 => KEY(1),
-				key_0_external_connection_export      	 => KEY(0)
+				key_0_external_connection_export      	 => KEY(0),
+				 rs232_0_external_interface_RXD         => UART_RXD,          --         rs232_0_external_interface.RXD
+            rs232_0_external_interface_TXD          => UART_TXD        --                                   .TXD
         );
 
 end structure;

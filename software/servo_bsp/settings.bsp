@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>ucosii</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Mar 10, 2017 11:28:18 AM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1489170498207</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Mar 16, 2017 9:59:42 AM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1489679982070</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>../../niosII_system.sopcinfo</SopcDesignFile>
@@ -1757,32 +1757,38 @@
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>jtag_uart_0</slaveDescriptor>
+                <slaveDescriptor>rs232_0</slaveDescriptor>
                 <addressRange>0x01109090 - 0x01109097</addressRange>
+                <addressSpan>8</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>jtag_uart_0</slaveDescriptor>
+                <addressRange>0x01109098 - 0x0110909F</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>sysid_qsys_0</slaveDescriptor>
-                <addressRange>0x01109098 - 0x0110909F</addressRange>
+                <addressRange>0x011090A0 - 0x011090A7</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>servo_1</slaveDescriptor>
-                <addressRange>0x011090A0 - 0x011090A3</addressRange>
+                <addressRange>0x011090A8 - 0x011090AB</addressRange>
                 <addressSpan>4</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>servo_0</slaveDescriptor>
-                <addressRange>0x011090A4 - 0x011090A7</addressRange>
+                <addressRange>0x011090AC - 0x011090AF</addressRange>
                 <addressSpan>4</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>character_lcd_0</slaveDescriptor>
-                <addressRange>0x011090A8 - 0x011090A9</addressRange>
+                <addressRange>0x011090B0 - 0x011090B1</addressRange>
                 <addressSpan>2</addressSpan>
                 <attributes/>
         </MemoryMap>

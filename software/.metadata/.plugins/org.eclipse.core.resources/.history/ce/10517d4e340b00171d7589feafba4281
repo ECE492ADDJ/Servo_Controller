@@ -1,0 +1,39 @@
+/*
+ * servo.c
+ *
+ *  Created on: Mar 17, 2017
+ *      Author: djr1
+ */
+
+/* Checks for servo move commands, and moves the servo to their new positions */
+#include "servo.h";
+
+void servoTask(void *pdata) {
+
+
+
+}
+
+void button_read(){
+	if(IORD_ALTERA_AVALON_PIO_DATA(KEY_0_BASE) == 0 || IORD_ALTERA_AVALON_PIO_DATA(KEY_1_BASE) == 0){
+	  OSSemPend(servo2Sem, 0, &err);
+		  if(button0Value == 0){
+			servo2Angle--;
+		  }
+		  else{
+			servo2Angle++;
+		  }
+	  OSSemPost(servo2Sem);
+	}
+
+	if(IORD_ALTERA_AVALON_PIO_DATA(KEY_2_BASE) == 0 || IORD_ALTERA_AVALON_PIO_DATA(KEY_3_BASE) == 0){
+	  OSSemPend(servo1Sem, 0, &err);
+		  if(button3Value == 0){
+			servo1Angle--;
+		  }
+		  else{
+			servo1Angle++;
+		  }
+	  OSSemPost(servo1Sem);
+	}
+}

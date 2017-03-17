@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for servo
-Mon Feb 27 14:09:22 2017
+Tue Mar 14 10:52:24 2017
 Quartus II 32-bit Version 12.1 Build 243 01/31/2013 Service Pack 1 SJ Full Version
 
 
@@ -277,10 +277,10 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 +---------------------------------+-------+------+
 ; Illegal Clocks                  ; 0     ; 0    ;
 ; Unconstrained Clocks            ; 3     ; 3    ;
-; Unconstrained Input Ports       ; 46    ; 46   ;
-; Unconstrained Input Port Paths  ; 51    ; 51   ;
-; Unconstrained Output Ports      ; 91    ; 91   ;
-; Unconstrained Output Port Paths ; 147   ; 147  ;
+; Unconstrained Input Ports       ; 47    ; 47   ;
+; Unconstrained Input Port Paths  ; 53    ; 53   ;
+; Unconstrained Output Ports      ; 92    ; 92   ;
+; Unconstrained Output Port Paths ; 148   ; 148  ;
 +---------------------------------+-------+------+
 
 
@@ -290,7 +290,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
     Info: Version 12.1 Build 243 01/31/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Mon Feb 27 14:09:19 2017
+    Info: Processing started: Tue Mar 14 10:52:20 2017
 Info: Command: quartus_sta servo -c servo
 Info: qsta_default_script.tcl version: #1
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
@@ -326,6 +326,7 @@ Info (332164): Evaluating HDL-embedded SDC commands
         Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|write_stalled}] -to [get_registers {*|alt_jtag_atlantic:*|t_pause*}]
         Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|write_valid}]
     Info (332165): Entity altera_avalon_st_clock_crosser
+        Info (332166): set_false_path -from [get_registers *altera_avalon_st_clock_crosser:*|in_data_buffer*] -to [get_registers *altera_avalon_st_clock_crosser:*|out_data_buffer*]
         Info (332166): set_false_path -from [get_registers *altera_avalon_st_clock_crosser:*|in_data_buffer*] -to [get_registers *altera_avalon_st_clock_crosser:*|out_data_buffer*]
         Info (332166): set_false_path -from [get_registers *altera_avalon_st_clock_crosser:*|in_data_buffer*] -to [get_registers *altera_avalon_st_clock_crosser:*|out_data_buffer*]
         Info (332166): set_false_path -from [get_registers *altera_avalon_st_clock_crosser:*|in_data_buffer*] -to [get_registers *altera_avalon_st_clock_crosser:*|out_data_buffer*]
@@ -490,9 +491,9 @@ Info (332001): The selected device family is not supported by the report_metasta
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 14 warnings
-    Info: Peak virtual memory: 348 megabytes
-    Info: Processing ended: Mon Feb 27 14:09:22 2017
-    Info: Elapsed time: 00:00:03
+    Info: Peak virtual memory: 358 megabytes
+    Info: Processing ended: Tue Mar 14 10:52:24 2017
+    Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:02
 
 

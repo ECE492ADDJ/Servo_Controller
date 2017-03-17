@@ -1,0 +1,46 @@
+/*
+ * servo.c
+ *
+ *  Created on: Mar 17, 2017
+ *      Author: djr1
+ */
+
+#include "servo.h";
+
+short servo0Angle;
+short servo1Angle;
+
+OS_EVENT *servo0Sem;
+OS_EVENT *servo1Sem;
+INT8U err;
+
+void servoTask(void *pdata) {
+
+	while(1){
+
+	}
+}
+
+void button_read(){
+	if(IORD_ALTERA_AVALON_PIO_DATA(KEY_0_BASE) == 0 || IORD_ALTERA_AVALON_PIO_DATA(KEY_1_BASE) == 0){
+	  OSSemPend(servo0Sem, 0, &err);
+		  if(IORD_ALTERA_AVALON_PIO_DATA(KEY_0_BASE) == 0){
+			servo0Angle++;
+		  }
+		  else{
+			servo0Angle--;
+		  }
+	  OSSemPost(servo0Sem);
+	}
+
+	if(IORD_ALTERA_AVALON_PIO_DATA(KEY_2_BASE) == 0 || IORD_ALTERA_AVALON_PIO_DATA(KEY_3_BASE) == 0){
+	  OSSemPend(servo1Sem, 0, &err);
+		  if(IORD_ALTERA_AVALON_PIO_DATA(KEY_2_BASE) == 0){
+			servo1Angle++;
+		  }
+		  else{
+			servo1Angle--;
+		  }
+	  OSSemPost(servo1Sem);
+	}
+}

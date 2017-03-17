@@ -50,8 +50,8 @@ INT8U err;
 #define TASK3_PRIORITY      3
 
 /* Max rotation of our hardware is 60 degrees in either direction */
-#define MAX_ROTATION 100
-#define MIN_ROTATION -100
+#define MAX_ROTATION 80
+#define MIN_ROTATION -80
 
 int servo1Angle;
 int servo2Angle;
@@ -104,6 +104,17 @@ void task2(void* pdata)
 	int *servoAddr0 = (int *) SERVO_0_BASE;
 	int *servoAddr1 = (int *) SERVO_1_BASE;
   while (1){
+	if(servo1Angle > MAX_ROTATION){
+		servo1Angle = MAX_ROTATION;
+	}else if(servo1Angle < MIN_ROTATION){
+		servo1Angle = MIN_ROTATION;
+	}
+
+	if(servo2Angle > MAX_ROTATION){
+		servo2Angle = MAX_ROTATION;
+	}else if(servo2Angle < MIN_ROTATION){
+		servo2Angle = MIN_ROTATION;
+	}
 	*servoAddr0 = servo1Angle;
 	*servoAddr1 = servo2Angle;
 	OSTimeDlyHMSM(0, 0, 0, 20);
@@ -115,7 +126,7 @@ void task3(void* pdata)
 {
   while (1){
 	  OSSemPend(servo1Sem, 0, &err);
-	  	  servo1Angle= (servo1Angle +10) % 60;
+	  	  servo1Angle= (servo1Angle +10) % MAX_ROTATION;
 	  OSSemPost(servo1Sem);
 	OSTimeDlyHMSM(0, 0, 1, 0);
   }
@@ -129,7 +140,6 @@ int main(void)
 
   servo1Sem = OSSemCreate(1);
   servo2Sem = OSSemCreate(1);
-
 
   servo1Angle = 0;
   servo2Angle = 0;
