@@ -12,7 +12,7 @@ export QUARTUS_ROOTDIR_OVERRIDE=/OPT/altera/12.1/quartus
 # It should also be the name of the top level entity as well. 
 # I also name  my working directory the same way.
 
-TOP_LEVEL=../
+TOP_LEVEL=../servo
 export LM_LICENSE_FILE=12000@lic.ece.ualberta.ca
 
 if [ -f $TOP_LEVEL.qpf ]; then
