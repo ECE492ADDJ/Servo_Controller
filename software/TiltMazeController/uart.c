@@ -97,7 +97,7 @@ void uarttask(void *pdata) {
         	}
 		}
 
-		//OSTimeDlyHMSM(0, 0, 0, 0);
+		OSTimeDlyHMSM(0, 0, 0, 1);
 	}
 }
 

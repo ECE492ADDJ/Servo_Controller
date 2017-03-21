@@ -7,6 +7,8 @@
 
 #include "servo.h"
 
+short servo0TargetAngle;
+short servo1TargetAngle;
 short servo0Angle;
 short servo1Angle;
 
@@ -35,8 +37,16 @@ void servotask(void *pdata) {
 
 		IOWR_ALTERA_AVALON_PIO_DATA(SERVO_0_BASE, servo0Angle);
 		IOWR_ALTERA_AVALON_PIO_DATA(SERVO_1_BASE, servo1Angle);
-		OSTimeDlyHMSM(0, 0, 0, 20);
+		OSTimeDlyHMSM(0, 0, 0, REFRESH_TIME);
 	}
+}
+
+short moveTowardsTarget(short target, short current){
+	short output = current;
+	if(target < 0 && current < target){
+		output--;
+	}
+	return output;
 }
 
 short checkRotationLimits(short angle){

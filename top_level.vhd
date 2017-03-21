@@ -88,7 +88,7 @@ architecture structure of top_level is
             sdram_0_wire_ras_n                      : out   std_logic;                                        -- ras_n
             sdram_0_wire_we_n                       : out   std_logic;                                        -- we_n
             altpll_0_c0_clk                         : out   std_logic;                                        -- clk
-            --green_leds_external_connection_export   : out   std_logic_vector(7 downto 0);                     -- export
+            green_leds_external_connection_export   : out   std_logic_vector(7 downto 0);                     -- export
             --switch_external_connection_export       : in    std_logic                     := 'X';             -- export
             sram_0_external_interface_DQ            : inout DE2_SRAM_DATA_BUS := (others => 'X'); -- DQ
             sram_0_external_interface_ADDR          : out   DE2_SRAM_ADDR_BUS;                    -- ADDR
@@ -103,12 +103,10 @@ architecture structure of top_level is
             character_lcd_0_external_interface_EN   : out   std_logic;                                        -- EN
             character_lcd_0_external_interface_RS   : out   std_logic;                                        -- RS
             character_lcd_0_external_interface_RW   : out   std_logic;                                        -- RW
-				servo_0_conduit_end_0_gpio0             : out   std_logic;                                        -- gpio0
-				servo_0_conduit_end_0_LEDG              : out   std_logic_vector(1 downto 0);
+				servo_0_conduit_end_0_export            : out   std_logic;                                        -- gpio0
 				key_3_external_connection_export      	 : in    std_logic                     := 'X';  -- button 3
 				key_2_external_connection_export      	 : in    std_logic                     := 'X';  -- button 2
-				servo_1_conduit_end_0_gpio0             : out   std_logic;                                        -- gpio0
-				servo_1_conduit_end_0_LEDG              : out   std_logic_vector(1 downto 0);
+				servo_1_conduit_end_0_export       		 : out   std_logic;                                        -- gpio0
 				key_1_external_connection_export      	 : in    std_logic                     := 'X';  -- button 1
 				key_0_external_connection_export      	 : in    std_logic                     := 'X';  -- button 0
 				rs232_0_external_interface_RXD          : in    std_logic                     := 'X';             -- RXD
@@ -146,7 +144,7 @@ begin
             sdram_0_wire_ras_n                      => DRAM_RAS_N,                     
             sdram_0_wire_we_n                       => DRAM_WE_N,                       
             altpll_0_c0_clk                         => DRAM_CLK,                        
-            --green_leds_external_connection_export   => LEDG,  
+            green_leds_external_connection_export   => LEDG,  
             --switch_external_connection_export       => SW(0),       
             sram_0_external_interface_DQ            => SRAM_DQ,           
             sram_0_external_interface_ADDR          => SRAM_ADDR,          
@@ -161,12 +159,10 @@ begin
             character_lcd_0_external_interface_EN   => LCD_EN,   
             character_lcd_0_external_interface_RS   => LCD_RS,   
             character_lcd_0_external_interface_RW   => LCD_RW,
-				servo_0_conduit_end_0_gpio0             => GPIO_0(1),
-				servo_0_conduit_end_0_LEDG              => LEDG(1 downto 0),
+				servo_0_conduit_end_0_export            => GPIO_0(1),
 				key_3_external_connection_export      	 => KEY(3),
 				key_2_external_connection_export      	 => KEY(2),
-				servo_1_conduit_end_0_gpio0             => GPIO_0(0),
-				servo_1_conduit_end_0_LEDG              => LEDG(3 downto 2),
+				servo_1_conduit_end_0_export            => GPIO_0(0),
 				key_1_external_connection_export      	 => KEY(1),
 				key_0_external_connection_export      	 => KEY(0),
 				 rs232_0_external_interface_RXD         => UART_RXD,          --         rs232_0_external_interface.RXD

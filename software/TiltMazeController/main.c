@@ -23,8 +23,8 @@ OS_STK    task_uart_stk[TASK_STACKSIZE];
 OS_STK    task_main_stk[TASK_STACKSIZE];
 
 /* Definition of Task Priorities */
-#define TASK_SERVO_PRIORITY     2
-#define TASK_UART_PRIORITY      3
+#define TASK_SERVO_PRIORITY     3
+#define TASK_UART_PRIORITY      2
 #define TASK_MAIN_PRIORITY      1
 
 /* Definition of global variables */
@@ -43,8 +43,8 @@ void maintask(void* pdata) {
 	// TODO: Remove these variables
 	INT16U tempx;
 	INT16U tempy;
-	extern short servo0Angle;
-	extern short servo1Angle;
+	extern short servo0TargetAngle;
+	extern short servo1TargetAngle;
 
 	while (1) {
 		buf = (char *) OSQPend(cmdQ, 0, &err);
@@ -61,24 +61,24 @@ void maintask(void* pdata) {
 			printf("Received PING\n");
 			break;
 		case SET_X_ACC:
-			servo0Angle = (short) command_arg;
+			servo0TargetAngle = (short) command_arg;
 			uart_write(ACK_STR, ACK_LEN);
 			printf("Received SET_X_ACC with arg: %d\n", command_arg);
 			break;
 		case SET_Y_ACC:
-			servo1Angle = (short) command_arg;
+			servo1TargetAngle = (short) command_arg;
 			uart_write(ACK_STR, ACK_LEN);
 			printf("Received SET_Y_ACC with arg: %d\n", command_arg);
 			break;
 		case GET_X_ACC:
 			//sprintf(resp_buf, "%s%c%c", CMD_GETX, (char) ((tempx & 0xff00) >> 8), (char) (tempx & 0x00ff));
-			sprintf(resp_buf, "%s%.4x", CMD_GETX, (INT16U) servo0Angle);
+			sprintf(resp_buf, "%s%.4x", CMD_GETX, (INT16U) servo0TargetAngle);
 			uart_write(resp_buf, CMD_LEN + CMD_ARGLEN);
 			printf("Received GET_X_ACC\n");
 			break;
 		case GET_Y_ACC:
 			//sprintf(resp_buf, "%s%c%c", CMD_GETY, (char) ((tempy & 0xff00) >> 8), (char) (tempy & 0x00ff));
-			sprintf(resp_buf, "%s%.4x", CMD_GETY, (INT16U) servo1Angle);
+			sprintf(resp_buf, "%s%.4x", CMD_GETY, (INT16U) servo1TargetAngle);
 			uart_write(resp_buf, CMD_LEN + CMD_ARGLEN);
 			printf("Received GET_Y_ACC\n");
 			break;

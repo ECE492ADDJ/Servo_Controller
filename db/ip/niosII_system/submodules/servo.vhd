@@ -27,9 +27,7 @@ entity servo is
 		
 		-- gpio interface, need 1 pin for the pwm control
 		coe_gpio0	:	out DE2_GPIO_0_BUS;
-		
-		-- button interface, two buttons rotate right and left
-		coe_LEDG		:	out std_logic_vector(1 downto 0);		
+	
 		-- avalon slave interface
 		-- write current angle to memory
 		avs_s0_read_n	: in std_logic ;

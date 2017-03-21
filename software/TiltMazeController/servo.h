@@ -19,6 +19,7 @@
 /* Max rotation of our hardware is 60 degrees in either direction */
 #define MAX_ROTATION 80
 #define MIN_ROTATION -80
+#define REFRESH_TIME 20
 
 /**
  * Initializes semaphores for servo operation
@@ -44,5 +45,7 @@ void button_read();
  * @return Returns the original angle if within bounds, otherwise returns the bound exceeded.
  */
 short checkRotationLimits(short angle);
+
+short moveTowardsTarget(short target, short current);
 
 #endif /* SERVO_H_ */
