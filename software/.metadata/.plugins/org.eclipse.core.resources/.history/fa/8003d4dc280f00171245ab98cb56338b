@@ -34,7 +34,7 @@ void servotask(void *pdata) {
 
 		servo0Angle = moveTowardsTarget(servo0TargetAngle, servo0Angle);
 		servo1Angle = moveTowardsTarget(servo1TargetAngle, servo1Angle);
-		printf("Servo0: %d, Servo1: %d\n", servo0Angle, servo1Angle);
+
 		IOWR_ALTERA_AVALON_PIO_DATA(SERVO_0_BASE, servo0Angle);
 		IOWR_ALTERA_AVALON_PIO_DATA(SERVO_1_BASE, servo1Angle);
 		OSTimeDlyHMSM(0, 0, 0, REFRESH_TIME);
@@ -43,9 +43,9 @@ void servotask(void *pdata) {
 
 short moveTowardsTarget(short target, short current){
 	short output = current;
-	if(current > target){
+	if(target < 0 && current > target){
 		output--;
-	}else if(current < target ){
+	}else if(target > 0 && current < target ){
 		output++;
 	}
 	output = checkRotationLimits(output);
@@ -66,10 +66,10 @@ void button_read(){
 	if(IORD_ALTERA_AVALON_PIO_DATA(KEY_0_BASE) == 0 || IORD_ALTERA_AVALON_PIO_DATA(KEY_1_BASE) == 0){
 	  OSSemPend(servo0Sem, 0, &err);
 		  if(IORD_ALTERA_AVALON_PIO_DATA(KEY_0_BASE) == 0){
-			servo0TargetAngle++;
+			servo0Angle++;
 		  }
 		  else{
-			servo0TargetAngle--;
+			servo0Angle--;
 		  }
 	  OSSemPost(servo0Sem);
 	}
@@ -77,10 +77,10 @@ void button_read(){
 	if(IORD_ALTERA_AVALON_PIO_DATA(KEY_2_BASE) == 0 || IORD_ALTERA_AVALON_PIO_DATA(KEY_3_BASE) == 0){
 	  OSSemPend(servo1Sem, 0, &err);
 		  if(IORD_ALTERA_AVALON_PIO_DATA(KEY_2_BASE) == 0){
-			servo1TargetAngle++;
+			servo1Angle++;
 		  }
 		  else{
-			servo1TargetAngle--;
+			servo1Angle--;
 		  }
 	  OSSemPost(servo1Sem);
 	}

@@ -66,10 +66,10 @@ void button_read(){
 	if(IORD_ALTERA_AVALON_PIO_DATA(KEY_0_BASE) == 0 || IORD_ALTERA_AVALON_PIO_DATA(KEY_1_BASE) == 0){
 	  OSSemPend(servo0Sem, 0, &err);
 		  if(IORD_ALTERA_AVALON_PIO_DATA(KEY_0_BASE) == 0){
-			servo0TargetAngle++;
+			servo0Angle++;
 		  }
 		  else{
-			servo0TargetAngle--;
+			servo0Angle--;
 		  }
 	  OSSemPost(servo0Sem);
 	}
@@ -77,10 +77,10 @@ void button_read(){
 	if(IORD_ALTERA_AVALON_PIO_DATA(KEY_2_BASE) == 0 || IORD_ALTERA_AVALON_PIO_DATA(KEY_3_BASE) == 0){
 	  OSSemPend(servo1Sem, 0, &err);
 		  if(IORD_ALTERA_AVALON_PIO_DATA(KEY_2_BASE) == 0){
-			servo1TargetAngle++;
+			servo1Angle++;
 		  }
 		  else{
-			servo1TargetAngle--;
+			servo1Angle--;
 		  }
 	  OSSemPost(servo1Sem);
 	}

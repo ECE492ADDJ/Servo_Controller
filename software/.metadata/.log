@@ -2107,3 +2107,43 @@ Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.pa
 
 !ENTRY com.altera.sbtgui.launch 1 0 2017-03-21 10:38:55.662
 !MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490113977 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf]
+!SESSION 2017-03-22 11:44:39.782 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-22 11:45:21.325
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490115242]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-22 11:45:22.834
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490115242 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-22 11:56:40.495
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-22 11:56:40.703
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490115242]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-22 11:56:42.079
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490115242 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-22 11:58:42.558
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-22 11:58:42.798
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490115242]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-22 11:58:44.395
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490115242 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-22 12:00:37.073
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-22 12:00:37.282
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490115242]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-22 12:00:38.861
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490115242 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf]
