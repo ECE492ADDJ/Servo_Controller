@@ -2147,3 +2147,331 @@ Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.pa
 
 !ENTRY com.altera.sbtgui.launch 1 0 2017-03-22 12:00:38.861
 !MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490115242 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-03-22 12:40:48.182
+!MESSAGE Indexed 'TiltMazeController_NonVolatile_bsp' (95 sources, 68 headers) in 1.27 sec: 2,318 declarations; 10,113 references; 127 unresolved inclusions; 5 syntax errors; 213 unresolved names (1.68%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-03-22 12:40:49.532
+!MESSAGE Indexed 'TiltMazeController_NonVolatile' (1 sources, 13 headers) in 0.04 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+!SESSION 2017-03-23 10:07:33.879 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:08:39.506
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490207697]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-03-23 10:08:40.993
+!MESSAGE ELF file not specified for download for TiltMazeController Nios II Hardware configuration
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:09:06.882
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:09:07.106
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490207697]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:09:08.473
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490207697 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-03-23 10:09:10.572
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --go, --sidp=0x11090a0, --id=0x0, --timestamp=1490207697, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-03-23 10:09:10.592
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:12:38.267
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:12:39.800
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-03-23 10:12:41.921
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.6]', --device=1, --instance=0, --go, --sidp=0x11090a0, --id=0x0, --timestamp=1490285383, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-03-23 10:12:41.942
+!MESSAGE Downloading ELF Process failed
+!SESSION 2017-03-23 10:15:01.269 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:15:47.603
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:15:49.120
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-03-23 10:15:51.240
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --go, --sidp=0x11090a0, --id=0x0, --timestamp=1490285383, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-03-23 10:15:51.261
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:16:16.450
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:16:17.977
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-03-23 10:16:20.080
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --go, --sidp=0x11090a0, --id=0x0, --timestamp=1490285383, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-03-23 10:16:20.100
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:16:53.320
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:16:54.738
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-03-23 10:16:56.837
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-1.5]', --device=1, --instance=0, --go, --sidp=0x11090a0, --id=0x0, --timestamp=1490285383, /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/TiltMazeController.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-03-23 10:16:56.858
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-03-23 10:18:08.482
+!MESSAGE Indexed 'TiltMazeController_nonVolatile_bsp' (95 sources, 102 headers) in 1.70 sec: 2,771 declarations; 11,031 references; 105 unresolved inclusions; 5 syntax errors; 202 unresolved names (1.44%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-03-23 10:18:09.210
+!MESSAGE Indexed 'TiltMazeController_nonVolatile' (1 sources, 13 headers) in 0.04 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:19:33.368
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:19:34.831
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:21:01.135
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:21:01.420
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:21:02.839
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:22:57.651
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:22:57.880
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:22:59.313
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:23:50.067
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:23:50.296
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:23:51.737
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:26:03.601
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:26:04.036
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:26:05.646
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:26:38.328
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:26:38.593
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:26:40.417
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:26:56.711
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:26:57.016
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:26:58.621
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:28:48.275
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:28:48.814
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:28:50.381
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:30:11.177
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:30:11.707
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:30:13.339
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:31:02.415
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:31:02.728
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:31:04.521
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:31:33.189
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:31:33.399
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:31:35.138
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:32:08.562
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:32:08.857
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:32:10.416
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:34:15.523
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:34:15.896
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:34:17.566
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:36:40.140
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:36:40.645
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:36:42.197
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:37:53.154
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:37:53.406
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:37:55.164
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:43:38.224
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:43:38.536
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --stop --sidp=0x11090a0 --id=0x0 --timestamp=1490285383]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-23 10:43:40.033
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.5]' --device=1 --instance=0 --go --sidp=0x11090a0 --id=0x0 --timestamp=1490285383 /afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/TiltMazeController_nonVolatile.elf]
+
+!ENTRY org.eclipse.osgi 4 0 2017-03-23 10:46:47.643
+!MESSAGE Unexpected exception occurred loading manifest for bundle at the location: reference:file:plugins/org.eclipse.cdt.gdb.ui_7.0.0.201202111925.jar.
+!STACK 0
+org.osgi.framework.BundleException: An error occurred while reading the manifest file.
+	at org.eclipse.osgi.framework.util.Headers.parseManifest(Headers.java:259)
+	at org.eclipse.osgi.internal.baseadaptor.AdaptorUtil.loadManifestFrom(AdaptorUtil.java:191)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.getGeneratedManifest0(EclipseStorageHook.java:410)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.getGeneratedManifest(EclipseStorageHook.java:397)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.createCachedManifest(EclipseStorageHook.java:392)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.getManifest(CachedManifest.java:42)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.get(CachedManifest.java:142)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.get(CachedManifest.java:1)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.lookupResourceBundle(ManifestLocalization.java:104)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.getResourceBundle(ManifestLocalization.java:91)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.getHeaders(ManifestLocalization.java:52)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getHeaders(AbstractBundle.java:964)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getHeaders(AbstractBundle.java:911)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor.getBundleVersion(BundleUsageMonitor.java:96)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor.getBundleVersion(BundleUsageMonitor.java:92)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor$1.bundleChanged(BundleUsageMonitor.java:52)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:847)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+Caused by: java.util.zip.ZipException: ZipFile closed
+	at java.util.zip.ZipFile.ensureOpenOrZipException(Unknown Source)
+	at java.util.zip.ZipFile.access$1100(Unknown Source)
+	at java.util.zip.ZipFile$ZipFileInputStream.read(Unknown Source)
+	at java.util.zip.ZipFile$1.fill(Unknown Source)
+	at java.util.zip.InflaterInputStream.read(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleEntry$ZipBundleEntryInputStream.read(ZipBundleEntry.java:157)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.eclipse.osgi.util.ManifestElement.parseBundleManifest(ManifestElement.java:516)
+	at org.eclipse.osgi.framework.util.Headers.parseManifest(Headers.java:257)
+	... 18 more
+Root exception:
+java.util.zip.ZipException: ZipFile closed
+	at java.util.zip.ZipFile.ensureOpenOrZipException(Unknown Source)
+	at java.util.zip.ZipFile.access$1100(Unknown Source)
+	at java.util.zip.ZipFile$ZipFileInputStream.read(Unknown Source)
+	at java.util.zip.ZipFile$1.fill(Unknown Source)
+	at java.util.zip.InflaterInputStream.read(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleEntry$ZipBundleEntryInputStream.read(ZipBundleEntry.java:157)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.eclipse.osgi.util.ManifestElement.parseBundleManifest(ManifestElement.java:516)
+	at org.eclipse.osgi.framework.util.Headers.parseManifest(Headers.java:257)
+	at org.eclipse.osgi.internal.baseadaptor.AdaptorUtil.loadManifestFrom(AdaptorUtil.java:191)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.getGeneratedManifest0(EclipseStorageHook.java:410)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.getGeneratedManifest(EclipseStorageHook.java:397)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.createCachedManifest(EclipseStorageHook.java:392)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.getManifest(CachedManifest.java:42)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.get(CachedManifest.java:142)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.get(CachedManifest.java:1)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.lookupResourceBundle(ManifestLocalization.java:104)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.getResourceBundle(ManifestLocalization.java:91)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.getHeaders(ManifestLocalization.java:52)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getHeaders(AbstractBundle.java:964)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getHeaders(AbstractBundle.java:911)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor.getBundleVersion(BundleUsageMonitor.java:96)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor.getBundleVersion(BundleUsageMonitor.java:92)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor$1.bundleChanged(BundleUsageMonitor.java:52)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:847)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SESSION 2017-03-23 13:21:16.589 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-03-23 13:32:08.957
+!MESSAGE Indexed 'TiltMazeController' (4 sources, 84 headers) in 0.91 sec: 3,361 declarations; 3,687 references; 0 unresolved inclusions; 0 syntax errors; 2 unresolved names (0.03%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-03-23 13:40:21.179
+!MESSAGE Indexed 'TiltMazeController2_bsp' (99 sources, 71 headers) in 0.96 sec: 2,420 declarations; 10,564 references; 131 unresolved inclusions; 5 syntax errors; 227 unresolved names (1.72%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-03-23 13:40:22.404
+!MESSAGE Indexed 'TiltMazeController2' (1 sources, 13 headers) in 0.04 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)

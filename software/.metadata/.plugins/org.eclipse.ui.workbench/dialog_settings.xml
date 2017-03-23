@@ -4,6 +4,7 @@
 		<item value="true" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController"/>
 			<item value="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/AutoTiltMaze/niosII_microc_tiltmaze/software/TiltMazeController"/>
 			<item value="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo"/>
 		</list>

@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project TiltMazeController_nonVolatile ****
+
+make all 
+Info: Building ../TiltMazeController_nonVolatile_bsp/
+make --no-print-directory -C ../TiltMazeController_nonVolatile_bsp/
+[BSP build complete]
+[TiltMazeController_nonVolatile build complete]
+
+**** Build Finished ****

@@ -311,6 +311,7 @@
 <definedSymbol symbol="__hal__=1"/>
 <definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
 <definedSymbol symbol="__ucosii__=1"/>
+<definedSymbol symbol="ALTERA_AVALON_UART_SMALL=1"/>
 </collector>
 </instance>
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1276433316;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1276433316.;cdt.managedbuild.tool.gnu.c.compiler.base.754572981;cdt.managedbuild.tool.gnu.c.compiler.input.1891249324">
@@ -607,6 +608,7 @@
 <definedSymbol symbol="__hal__=1"/>
 <definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
 <definedSymbol symbol="__ucosii__=1"/>
+<definedSymbol symbol="ALTERA_AVALON_UART_SMALL=1"/>
 </collector>
 </instance>
 </scannerInfo>

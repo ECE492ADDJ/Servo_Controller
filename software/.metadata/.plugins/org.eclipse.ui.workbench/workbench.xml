@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="35" version="2.0">
+<workbench progressCount="36" version="2.0">
 <workbenchAdvisor/>
 <window height="828" maximized="true" width="1446" x="0" y="28">
 <fastViewData fastViewLocation="1024"/>
@@ -19,6 +19,8 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="36"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.make.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -30,43 +32,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="5"/>
-<part id="3"/>
-<part id="4"/>
-<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/main.c" title="main.c" tooltip="TiltMazeController/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TiltMazeController/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2114" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="command.h" partName="command.h" path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/command.h" title="command.h" tooltip="TiltMazeController/command.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TiltMazeController/command.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="40"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="uart.c" partName="uart.c" path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/uart.c" title="uart.c" tooltip="TiltMazeController/uart.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TiltMazeController/uart.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2261" selectionTopPixel="1161"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="servo.h" partName="servo.h" path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/servo.h" title="servo.h" tooltip="TiltMazeController/servo.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TiltMazeController/servo.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="52" selectionOffset="1119" selectionTopPixel="317"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="servo.c" partName="servo.c" path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/servo.c" title="servo.c" tooltip="TiltMazeController/servo.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TiltMazeController/servo.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="888" selectionTopPixel="376"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="uart.h" partName="uart.h" path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController/uart.h" title="uart.h" tooltip="TiltMazeController/uart.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TiltMazeController/uart.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="541" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="hello_ucosii.c" partName="hello_ucosii.c" path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/servo/hello_ucosii.c" title="hello_ucosii.c" tooltip="servo/hello_ucosii.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/servo/hello_ucosii.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="26" selectionOffset="4313" selectionTopPixel="1887"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="servo.h" partName="servo.h" path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile/servo.h" title="servo.h" tooltip="TiltMazeController_nonVolatile/servo.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TiltMazeController_nonVolatile/servo.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="371" selectionTopPixel="228"/>
 </editor>
 </editors>
 <views>
@@ -81,10 +53,9 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Warnings (1 item)"/>
-<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="169" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="560"/>
+<columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="169" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="779"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -118,7 +89,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="com.altera.sbtgui.ui.cPerspective">
+<perspectives activePart="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [2-1.5].1.0" activePerspective="com.altera.sbtgui.ui.cPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -291,15 +262,15 @@
 </presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.1824382" ratioLeft="214" ratioRight="959" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.27024722" ratioLeft="317" ratioRight="856" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.7138686" ratioLeft="489" ratioRight="196" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<folder activePageID="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [2-1.5].1.0" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
-<page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [2-1.6].1.0" label="Nios II Console"/>
-<page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [2-1.5].1.0" label="LabelNotFound"/>
+<page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [2-1.5].1.0" label="Nios II Console"/>
+<page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [2-1.6].1.0" label="LabelNotFound"/>
 <page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [2-1.7].1.0" label="LabelNotFound"/>
 <page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:*" label="LabelNotFound"/>
 <page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView" label="LabelNotFound"/>
@@ -326,10 +297,7 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/servo.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/uart.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/servo.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/servo/hello_ucosii.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/command.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/uart.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/main.c"/>
@@ -340,156 +308,164 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/servo.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/servo.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/uart.c"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/AutoTiltMaze/niosII_microc_tiltmaze/niosII_system.qsys"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" path="/TiltMazeController_NonVolatile/Makefile"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/uart.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/servo.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/command.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController/uart.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TiltMazeController_nonVolatile/servo.h"/>
 </editors>
-<item historyLabel="servo.h" index="3">
-<position info="not_deleted" x="420" y="0"/>
-</item>
-<item historyLabel="servo.c" index="0">
-<position info="not_deleted" x="185" y="51"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="2486" y="0"/>
-</item>
-<item historyLabel="servo.c" index="0">
-<position info="not_deleted" x="196" y="0"/>
-</item>
-<item historyLabel="servo.h" index="3">
-<position info="not_deleted" x="548" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="2486" y="0"/>
-</item>
-<item historyLabel="hello_ucosii.c" index="4">
-<position info="not_deleted" x="4551" y="59"/>
-</item>
-<item historyLabel="servo.c" index="0">
-<position info="not_deleted" x="196" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="2486" y="0"/>
-</item>
-<item historyLabel="servo.c" index="0">
-<position info="not_deleted" x="90" y="0"/>
-</item>
-<item historyLabel="uart.c" index="2">
-<position info="not_deleted" x="2628" y="3"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="680" y="41"/>
-</item>
-<item historyLabel="servo.c" index="0">
-<position info="not_deleted" x="361" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="2489" y="191"/>
-</item>
-<item historyLabel="servo.c" index="0">
-<position info="not_deleted" x="334" y="27"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="2489" y="191"/>
-</item>
-<item historyLabel="uart.c" index="2">
-<position info="not_deleted" x="2628" y="3"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="2433" y="0"/>
-</item>
-<item historyLabel="servo.c" index="0">
-<position info="not_deleted" x="239" y="41"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="2433" y="0"/>
-</item>
-<item historyLabel="servo.c" index="0">
-<position info="not_deleted" x="258" y="0"/>
-</item>
-<item historyLabel="uart.c" index="2">
-<position info="not_deleted" x="2628" y="3"/>
-</item>
-<item historyLabel="servo.c" index="0">
-<position info="not_deleted" x="410" y="0"/>
-</item>
-<item historyLabel="hello_ucosii.c" index="4">
-<position info="not_deleted" x="4313" y="26"/>
-</item>
-<item historyLabel="servo.c" index="0">
-<position info="not_deleted" x="673" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="591" y="0"/>
-</item>
-<item historyLabel="command.h" index="5">
+<item historyLabel="command.h" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="uart.c" index="2">
+<item historyLabel="uart.c" index="1">
 <position info="not_deleted" x="2628" y="3"/>
 </item>
 <item historyLabel="servo.c" index="0">
 <position info="not_deleted" x="673" y="0"/>
+</item>
+<item historyLabel="uart.c" index="3">
+<position info="not_deleted" x="2628" y="3"/>
+</item>
+<item historyLabel="main.c" index="4">
+<position info="not_deleted" x="591" y="0"/>
+</item>
+<item historyLabel="servo.c" index="5">
+<position info="not_deleted" x="338" y="0"/>
 </item>
 <item historyLabel="uart.c" index="6">
 <position info="not_deleted" x="2628" y="3"/>
 </item>
-<item historyLabel="main.c" index="7">
-<position info="not_deleted" x="591" y="0"/>
-</item>
-<item historyLabel="servo.c" index="8">
-<position info="not_deleted" x="338" y="0"/>
-</item>
-<item historyLabel="uart.c" index="9">
-<position info="not_deleted" x="2628" y="3"/>
-</item>
-<item historyLabel="command.h" index="10">
+<item historyLabel="command.h" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="8">
 <position info="not_deleted" x="591" y="0"/>
 </item>
-<item historyLabel="servo.h" index="12">
+<item historyLabel="servo.h" index="9">
 <position info="not_deleted" x="572" y="0"/>
 </item>
-<item historyLabel="servo.c" index="13">
+<item historyLabel="servo.c" index="10">
 <position info="not_deleted" x="698" y="0"/>
 </item>
-<item historyLabel="servo.h" index="12">
+<item historyLabel="servo.h" index="9">
 <position info="not_deleted" x="393" y="0"/>
 </item>
-<item historyLabel="servo.c" index="13">
+<item historyLabel="servo.c" index="10">
 <position info="not_deleted" x="173" y="0"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="8">
 <position info="not_deleted" x="1027" y="0"/>
 </item>
-<item historyLabel="servo.c" index="13">
+<item historyLabel="servo.c" index="10">
 <position info="not_deleted" x="173" y="0"/>
 </item>
-<item historyLabel="servo.c" index="13">
+<item historyLabel="servo.c" index="10">
 <position/>
 </item>
-<item historyLabel="servo.h" index="12">
+<item historyLabel="servo.h" index="9">
 <position info="not_deleted" x="393" y="0"/>
 </item>
-<item historyLabel="servo.h" index="12">
+<item historyLabel="servo.h" index="9">
 <position info="not_deleted" x="1119" y="52"/>
 </item>
-<item historyLabel="servo.c" index="13">
+<item historyLabel="servo.c" index="10">
 <position/>
 </item>
-<item historyLabel="servo.c" index="13">
+<item historyLabel="servo.c" index="10">
 <position info="not_deleted" x="888" y="0"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="8">
 <position info="not_deleted" x="1027" y="0"/>
 </item>
-<item historyLabel="uart.c" index="14">
+<item historyLabel="uart.c" index="11">
 <position info="not_deleted" x="2261" y="0"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="8">
 <position info="not_deleted" x="2114" y="0"/>
 </item>
-<item active="true" historyLabel="servo.c" index="13">
+<item historyLabel="servo.c" index="10">
 <position info="not_deleted" x="888" y="0"/>
+</item>
+<item historyLabel="servo.c" index="10">
+<position info="not_deleted" x="1034" y="0"/>
+</item>
+<item historyLabel="servo.c" index="10">
+<position info="not_deleted" x="477" y="0"/>
+</item>
+<item historyLabel="niosII_system.qsys" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="servo.c" index="10">
+<position info="not_deleted" x="792" y="0"/>
+</item>
+<item historyLabel="Makefile" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="servo.c" index="10">
+<position info="not_deleted" x="792" y="0"/>
+</item>
+<item historyLabel="main.c" index="14">
+<position info="not_deleted" x="2114" y="0"/>
+</item>
+<item historyLabel="uart.c" index="15">
+<position info="not_deleted" x="2015" y="0"/>
+</item>
+<item historyLabel="servo.c" index="10">
+<position info="not_deleted" x="792" y="0"/>
+</item>
+<item historyLabel="servo.h" index="16">
+<position info="not_deleted" x="369" y="0"/>
+</item>
+<item historyLabel="servo.c" index="10">
+<position info="not_deleted" x="445" y="1"/>
+</item>
+<item historyLabel="servo.h" index="16">
+<position info="not_deleted" x="369" y="0"/>
+</item>
+<item historyLabel="main.c" index="14">
+<position info="not_deleted" x="2114" y="0"/>
+</item>
+<item historyLabel="servo.c" index="10">
+<position info="not_deleted" x="445" y="1"/>
+</item>
+<item historyLabel="servo.h" index="16">
+<position info="not_deleted" x="321" y="48"/>
+</item>
+<item historyLabel="servo.c" index="10">
+<position info="not_deleted" x="445" y="1"/>
+</item>
+<item historyLabel="servo.c" index="10">
+<position/>
+</item>
+<item historyLabel="servo.c" index="10">
+<position info="not_deleted" x="999" y="0"/>
+</item>
+<item historyLabel="servo.h" index="16">
+<position info="not_deleted" x="342" y="2"/>
+</item>
+<item historyLabel="servo.c" index="10">
+<position info="not_deleted" x="999" y="0"/>
+</item>
+<item historyLabel="command.h" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="servo.h" index="16">
+<position info="not_deleted" x="342" y="2"/>
+</item>
+<item historyLabel="uart.h" index="18">
+<position info="not_deleted" x="541" y="0"/>
+</item>
+<item historyLabel="servo.h" index="16">
+<position info="not_deleted" x="342" y="2"/>
+</item>
+<item historyLabel="servo.c" index="10">
+<position info="not_deleted" x="999" y="0"/>
+</item>
+<item active="true" historyLabel="servo.h" index="19">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -497,6 +473,12 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@130fafb"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -505,10 +487,20 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="servo.h" tooltip="TiltMazeController_nonVolatile/servo.h">
+<persistable path="/TiltMazeController_nonVolatile/servo.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" name="Makefile" tooltip="TiltMazeController_NonVolatile/Makefile">
+<persistable path="/TiltMazeController_NonVolatile/Makefile"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="niosII_system.qsys" tooltip="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/AutoTiltMaze/niosII_microc_tiltmaze/niosII_system.qsys">
+<persistable uri="file:/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/AutoTiltMaze/niosII_microc_tiltmaze/niosII_system.qsys"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_ucosii.c" tooltip="servo/hello_ucosii.c">
 <persistable path="/servo/hello_ucosii.c"/>
 </file>
@@ -544,9 +536,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system.h" tooltip="2_servo_bsp/system.h">
 <persistable path="/2_servo_bsp/system.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_ucosii.c" tooltip="2_servo/hello_ucosii.c">
-<persistable path="/2_servo/hello_ucosii.c"/>
 </file>
 </mruList>
 </workbench>

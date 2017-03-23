@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Tue Mar 21 10:55:01 2017
+Analysis & Synthesis Status : Successful - Thu Mar 23 13:36:12 2017
 Quartus II 32-bit Version : 12.1 Build 243 01/31/2013 SP 1 SJ Full Version
 Revision Name : servo
 Top-level Entity Name : top_level
 Family : Cyclone II
-Total logic elements : 3,861
-    Total combinational functions : 3,503
-    Dedicated logic registers : 2,027
-Total registers : 2027
-Total pins : 108
+Total logic elements : 5,902
+    Total combinational functions : 5,048
+    Dedicated logic registers : 3,310
+Total registers : 3310
+Total pins : 142
 Total virtual pins : 0
-Total memory bits : 144,384
-Embedded Multiplier 9-bit elements : 8
+Total memory bits : 195,968
+Embedded Multiplier 9-bit elements : 12
 Total PLLs : 1
