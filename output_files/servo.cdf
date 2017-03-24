@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP2C35F672) Path("/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/output_files/") File("servo.sof") MfrSpec(OpMask(1));
+		Device PartName(EP2C35F672) Path("/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/output_files/") File("servo.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

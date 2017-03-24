@@ -4,6 +4,10 @@
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1276433316;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1276433316.;cdt.managedbuild.tool.gnu.cpp.compiler.base.2015996242;cdt.managedbuild.tool.gnu.cpp.compiler.input.615940396">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_bsp/UCOSII/inc"/>
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_bsp/HAL/inc"/>
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_bsp/"/>
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_bsp/drivers/inc"/>
 <includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_bsp/UCOSII/inc"/>
 <includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_bsp/HAL/inc"/>
 <includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_bsp/"/>
@@ -316,6 +320,10 @@
 </instance>
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1276433316;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1276433316.;cdt.managedbuild.tool.gnu.c.compiler.base.754572981;cdt.managedbuild.tool.gnu.c.compiler.input.1891249324">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_bsp/UCOSII/inc"/>
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_bsp/HAL/inc"/>
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_bsp/"/>
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_bsp/drivers/inc"/>
 <includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_bsp/UCOSII/inc"/>
 <includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_bsp/HAL/inc"/>
 <includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_bsp/"/>

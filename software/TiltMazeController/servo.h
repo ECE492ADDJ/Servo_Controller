@@ -17,8 +17,8 @@
 #define WAIT_FOREVER 		0
 
 /* Max rotation of our hardware is 60 degrees in either direction */
-#define MAX_ROTATION 80
-#define MIN_ROTATION -80
+#define MAX_ROTATION 150
+#define MIN_ROTATION -150
 #define REFRESH_TIME 20
 
 /**
