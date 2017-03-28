@@ -50,9 +50,9 @@ constant frequency: integer := 50;
 signal currentPulseWidth : integer := 2000;
 signal numDegrees : integer := 0;
 -- pulse time = pulseWidth/clockperiod
--- Upper bound is 2.5ms / 20ns = 125 000 000
--- Lower bound is 1.5ms / 20ns = 75 000 000
--- Middle is 2ms/20ns = 100 000
+-- Upper bound is 2.5ms / 20ns = 125 000
+-- Lower bound is 0.5ms / 20ns = 25 000
+-- Middle is 2ms/20ns = 75 000
 
 begin
 -- If memory has a new value or a key was pressed, change the pulse width
@@ -66,11 +66,11 @@ end process;
 -- When a new angle is read, calculate new width and enforce bounds
 calculatePulse: process(numDegrees) is
 	begin
-		currentPulseWidth <= 2000 + numDegrees * msPerDegree;
+		currentPulseWidth <= 1500 + numDegrees * msPerDegree;
 end process;
 
 send_pulse: process(clk) is
-	variable pulseTime : integer := 100000;
+	variable pulseTime : integer := 75000;
 	variable refreshTime : integer := 0;
 
 	begin

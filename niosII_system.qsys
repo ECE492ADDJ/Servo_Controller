@@ -156,14 +156,6 @@
          type = "String";
       }
    }
-   element servo_1.s0
-   {
-      datum baseAddress
-      {
-         value = "26251456";
-         type = "String";
-      }
-   }
    element servo_0.s0
    {
       datum baseAddress
@@ -172,59 +164,11 @@
          type = "String";
       }
    }
-   element key_3.s1
+   element servo_1.s0
    {
       datum baseAddress
       {
-         value = "26251328";
-         type = "String";
-      }
-   }
-   element key_2.s1
-   {
-      datum baseAddress
-      {
-         value = "26251344";
-         type = "String";
-      }
-   }
-   element uart_0.s1
-   {
-      datum baseAddress
-      {
-         value = "26251264";
-         type = "String";
-      }
-   }
-   element timer_0.s1
-   {
-      datum baseAddress
-      {
-         value = "26251296";
-         type = "String";
-      }
-   }
-   element key_0.s1
-   {
-      datum baseAddress
-      {
-         value = "26251360";
-         type = "String";
-      }
-   }
-   element green_leds.s1
-   {
-      datum baseAddress
-      {
-         value = "26251408";
-         type = "String";
-      }
-   }
-   element sdram_0.s1
-   {
-      datum baseAddress
-      {
-         value = "8388608";
+         value = "26251456";
          type = "String";
       }
    }
@@ -236,6 +180,22 @@
          type = "String";
       }
    }
+   element green_leds.s1
+   {
+      datum baseAddress
+      {
+         value = "26251408";
+         type = "String";
+      }
+   }
+   element timer_0.s1
+   {
+      datum baseAddress
+      {
+         value = "26251296";
+         type = "String";
+      }
+   }
    element onchip_memory2_0.s1
    {
       datum baseAddress
@@ -244,11 +204,51 @@
          type = "String";
       }
    }
+   element uart_0.s1
+   {
+      datum baseAddress
+      {
+         value = "26251264";
+         type = "String";
+      }
+   }
    element key_1.s1
    {
       datum baseAddress
       {
          value = "26251376";
+         type = "String";
+      }
+   }
+   element key_0.s1
+   {
+      datum baseAddress
+      {
+         value = "26251360";
+         type = "String";
+      }
+   }
+   element key_2.s1
+   {
+      datum baseAddress
+      {
+         value = "26251344";
+         type = "String";
+      }
+   }
+   element key_3.s1
+   {
+      datum baseAddress
+      {
+         value = "26251328";
+         type = "String";
+      }
+   }
+   element sdram_0.s1
+   {
+      datum baseAddress
+      {
+         value = "8388608";
          type = "String";
       }
    }
@@ -360,7 +360,7 @@
  <parameter name="projectName" value="servo.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1490296893272" />
+ <parameter name="timeStamp" value="1490721665829" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk" internal="clk_0.clk_in" type="clock" dir="end" />
@@ -1000,7 +1000,7 @@
   <parameter name="baud" value="115200" />
   <parameter name="clockRate" value="50000000" />
   <parameter name="dataBits" value="8" />
-  <parameter name="fixedBaud" value="true" />
+  <parameter name="fixedBaud" value="false" />
   <parameter name="parity" value="NONE" />
   <parameter name="simCharStream" value="" />
   <parameter name="simInteractiveInputEnable" value="false" />
