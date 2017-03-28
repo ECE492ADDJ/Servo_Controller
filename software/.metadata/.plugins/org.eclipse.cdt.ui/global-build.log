@@ -203,3 +203,63 @@ nios2-elf-objdump --disassemble --syms --all-header --source TiltMazeController.
 [TiltMazeController build complete]
 
 **** Build Finished ****
+
+**** Build of configuration Nios II for project TiltMazeController ****
+
+make all 
+Info: Building ../TiltMazeController_bsp/
+make --no-print-directory -C ../TiltMazeController_bsp/
+[BSP build complete]
+[TiltMazeController build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TiltMazeController ****
+
+make all 
+Info: Building ../TiltMazeController_bsp/
+make --no-print-directory -C ../TiltMazeController_bsp/
+[BSP build complete]
+[TiltMazeController build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TiltMazeController ****
+
+make all 
+Info: Building ../TiltMazeController_bsp/
+make --no-print-directory -C ../TiltMazeController_bsp/
+[BSP build complete]
+[TiltMazeController build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TiltMazeController ****
+
+make all 
+Info: Building ../TiltMazeController_bsp/
+make --no-print-directory -C ../TiltMazeController_bsp/
+[BSP build complete]
+[TiltMazeController build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TiltMazeController ****
+
+make all 
+Info: Building ../TiltMazeController_bsp/
+make --no-print-directory -C ../TiltMazeController_bsp/
+[BSP build complete]
+[TiltMazeController build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TiltMazeController ****
+
+make all 
+Info: Building ../TiltMazeController_bsp/
+make --no-print-directory -C ../TiltMazeController_bsp/
+[BSP build complete]
+[TiltMazeController build complete]
+
+**** Build Finished ****
