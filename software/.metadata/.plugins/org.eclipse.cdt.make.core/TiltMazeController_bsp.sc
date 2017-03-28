@@ -4,6 +4,10 @@
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1974059893;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1974059893.;cdt.managedbuild.tool.gnu.cpp.compiler.base.672598875;cdt.managedbuild.tool.gnu.cpp.compiler.input.1108754715">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="/afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController_bsp/UCOSII/inc"/>
+<includePath path="/afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController_bsp/HAL/inc"/>
+<includePath path="/afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController_bsp"/>
+<includePath path="/afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController_bsp/drivers/inc"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../../nios2-elf/include/c++/4.1.2"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../../nios2-elf/include/c++/4.1.2/nios2-elf"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../../nios2-elf/include/c++/4.1.2/backward"/>
@@ -302,10 +306,19 @@
 <definedSymbol symbol="__nios2_little_endian=1"/>
 <definedSymbol symbol="__nios2_little_endian__=1"/>
 <definedSymbol symbol="nios2_little_endian=1"/>
+<definedSymbol symbol="SYSTEM_BUS_WIDTH=32"/>
+<definedSymbol symbol="__hal__=1"/>
+<definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
+<definedSymbol symbol="__ucosii__=1"/>
+<definedSymbol symbol="ALTERA_AVALON_UART_SMALL=1"/>
 </collector>
 </instance>
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1974059893;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1974059893.;cdt.managedbuild.tool.gnu.c.compiler.base.1343138438;cdt.managedbuild.tool.gnu.c.compiler.input.172305618">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="/afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController_bsp/UCOSII/inc"/>
+<includePath path="/afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController_bsp/HAL/inc"/>
+<includePath path="/afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController_bsp"/>
+<includePath path="/afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController_bsp/drivers/inc"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/include"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/include-fixed"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/include"/>
@@ -590,6 +603,11 @@
 <definedSymbol symbol="__nios2_little_endian=1"/>
 <definedSymbol symbol="__nios2_little_endian__=1"/>
 <definedSymbol symbol="nios2_little_endian=1"/>
+<definedSymbol symbol="SYSTEM_BUS_WIDTH=32"/>
+<definedSymbol symbol="__hal__=1"/>
+<definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
+<definedSymbol symbol="__ucosii__=1"/>
+<definedSymbol symbol="ALTERA_AVALON_UART_SMALL=1"/>
 </collector>
 </instance>
 </scannerInfo>

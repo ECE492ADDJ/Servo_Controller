@@ -16,6 +16,7 @@
 #include "altera_avalon_pio_regs.h"
 #include "altera_up_avalon_rs232.h"
 #include "altera_up_avalon_character_lcd.h"
+#include "altera_avalon_uart_regs.h"
 
 #define MSG_OPEN_CHAR '<'
 #define MSG_CLOSE_CHAR '>'

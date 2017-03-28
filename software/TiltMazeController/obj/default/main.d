@@ -24,7 +24,9 @@ obj/default/main.o: main.c ../TiltMazeController_bsp//HAL/inc/includes.h \
   ../TiltMazeController_bsp//HAL/inc/sys/alt_llist.h \
   ../TiltMazeController_bsp//drivers/inc/altera_up_avalon_character_lcd.h \
   ../TiltMazeController_bsp//HAL/inc/sys/alt_alarm.h \
-  ../TiltMazeController_bsp//HAL/inc/sys/alt_warning.h command.h servo.h
+  ../TiltMazeController_bsp//HAL/inc/sys/alt_warning.h \
+  ../TiltMazeController_bsp//drivers/inc/altera_avalon_uart_regs.h \
+  command.h servo.h
 
 ../TiltMazeController_bsp//HAL/inc/includes.h:
 
@@ -83,6 +85,8 @@ uart.h:
 ../TiltMazeController_bsp//HAL/inc/sys/alt_alarm.h:
 
 ../TiltMazeController_bsp//HAL/inc/sys/alt_warning.h:
+
+../TiltMazeController_bsp//drivers/inc/altera_avalon_uart_regs.h:
 
 command.h:
 

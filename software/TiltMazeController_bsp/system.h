@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_qsys_0' in SOPC Builder design 'niosII_system'
  * SOPC Builder design path: ../../niosII_system.sopcinfo
  *
- * Generated: Tue Mar 28 11:26:13 MDT 2017
+ * Generated: Tue Mar 28 12:00:53 MDT 2017
  */
 
 /*
@@ -569,7 +569,7 @@
 
 #define ALT_MODULE_CLASS_uart_0 altera_avalon_uart
 #define UART_0_BASE 0x1909000
-#define UART_0_BAUD 115200
+#define UART_0_BAUD 57600
 #define UART_0_DATA_BITS 8
 #define UART_0_FIXED_BAUD 0
 #define UART_0_FREQ 50000000u

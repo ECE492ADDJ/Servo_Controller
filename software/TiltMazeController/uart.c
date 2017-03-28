@@ -25,7 +25,10 @@ void uart_init(OS_EVENT *cmdQueue) {
 	alt_up_character_lcd_init(char_lcd);
 
 	// TODO: Remove magic numbers
-	IOWR(UART_0_BASE, 3, 0x80);
+	//IOWR(UART_0_BASE, 3, 0x80);
+	IOWR_ALTERA_AVALON_UART_CONTROL(UART_0_BASE, ALTERA_AVALON_UART_CONTROL_RRDY_MSK);
+	// Divisor = 50000000 / baud - 1
+	IOWR_ALTERA_AVALON_UART_DIVISOR(UART_0_BASE, 867);
 
 	err = alt_ic_isr_register(UART_0_IRQ_INTERRUPT_CONTROLLER_ID,
 			UART_0_IRQ,

@@ -43,11 +43,16 @@ void servotask(void *pdata) {
 
 short moveTowardsTarget(short target, short current){
 	short output = current;
-	if(current > target){
-		output--;
-	}else if(current < target ){
-		output++;
+	short diff = target - current;
+
+	if (diff < MAX_CHANGE) {
+		output = current + diff;
+	} else if (diff > 0) {
+		output += MAX_CHANGE;
+	} else if (diff < 0) {
+		output -= MAX_CHANGE;
 	}
+
 	output = checkRotationLimits(output);
 	return output;
 }

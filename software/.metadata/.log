@@ -2719,3 +2719,72 @@ Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.pa
 
 !ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 11:35:40.436
 !MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x19090b8 --id=0x0 --timestamp=1490721777 /afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 11:37:02.716
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x19090b8 --id=0x0 --timestamp=1490721777]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 11:37:04.278
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x19090b8 --id=0x0 --timestamp=1490721777 /afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 11:52:28.906
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 11:52:29.165
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x19090b8 --id=0x0 --timestamp=1490721777]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 11:52:30.532
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x19090b8 --id=0x0 --timestamp=1490721777 /afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 11:54:31.252
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 11:54:31.572
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x19090b8 --id=0x0 --timestamp=1490721777]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 11:54:33.039
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x19090b8 --id=0x0 --timestamp=1490721777 /afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 11:58:47.555
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 11:58:47.920
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x19090b8 --id=0x0 --timestamp=1490721777]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 11:58:49.402
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x19090b8 --id=0x0 --timestamp=1490721777 /afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 12:00:06.423
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 12:00:06.757
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x19090b8 --id=0x0 --timestamp=1490721777]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 12:00:08.248
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x19090b8 --id=0x0 --timestamp=1490721777 /afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 12:01:19.247
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 12:01:19.573
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x19090b8 --id=0x0 --timestamp=1490721777]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 12:01:21.064
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x19090b8 --id=0x0 --timestamp=1490721777 /afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 12:08:35.940
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 12:08:56.172
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x19090b8 --id=0x0 --timestamp=1490721777]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 12:08:57.781
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x19090b8 --id=0x0 --timestamp=1490721777 /afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController/TiltMazeController.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 12:15:48.797
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 12:16:09.035
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --stop --sidp=0x19090b8 --id=0x0 --timestamp=1490721777]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-28 12:16:10.505
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-1.6]' --device=1 --instance=0 --go --sidp=0x19090b8 --id=0x0 --timestamp=1490721777 /afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController/TiltMazeController.elf]

@@ -20,6 +20,7 @@
 #define MAX_ROTATION 150
 #define MIN_ROTATION -150
 #define REFRESH_TIME 20
+#define MAX_CHANGE 10
 
 /**
  * Initializes semaphores for servo operation
