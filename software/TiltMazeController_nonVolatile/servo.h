@@ -17,9 +17,10 @@
 #define WAIT_FOREVER 		0
 
 /* Max rotation of our hardware is 60 degrees in either direction */
-#define MAX_ROTATION 200
-#define MIN_ROTATION -200
+#define MAX_ROTATION 150
+#define MIN_ROTATION -150
 #define REFRESH_TIME 20
+#define MAX_CHANGE 10
 
 /**
  * Initializes semaphores for servo operation

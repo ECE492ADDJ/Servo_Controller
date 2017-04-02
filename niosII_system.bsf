@@ -257,8 +257,8 @@ applicable agreement for further details.
 	(port
 		(pt 0 944)
 		(output)
-		(text "tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_write_out" (rect 0 0 297 12)(font "Arial" (font_size 8)))
-		(text "tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_write_out" (rect 4 933 442 944)(font "Arial" (font_size 8)))
+		(text "tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_write_n_out" (rect 0 0 307 12)(font "Arial" (font_size 8)))
+		(text "tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_write_n_out" (rect 4 933 454 944)(font "Arial" (font_size 8)))
 		(line (pt 0 944)(pt 432 944)(line_width 1))
 	)
 	(port
@@ -355,7 +355,7 @@ applicable agreement for further details.
 		(text "generic_tristate_controller_0_tcm_read_n_out" (rect 437 891 1138 1792)(font "Arial" (color 0 0 0)))
 		(text "generic_tristate_controller_0_tcm_data_out" (rect 437 907 1126 1824)(font "Arial" (color 0 0 0)))
 		(text "generic_tristate_controller_0_tcm_chipselect_n_out" (rect 437 923 1174 1856)(font "Arial" (color 0 0 0)))
-		(text "generic_tristate_controller_0_tcm_write_out" (rect 437 939 1132 1888)(font "Arial" (color 0 0 0)))
+		(text "generic_tristate_controller_0_tcm_write_n_out" (rect 437 939 1144 1888)(font "Arial" (color 0 0 0)))
 		(text "generic_tristate_controller_0_tcm_address_out" (rect 437 955 1144 1920)(font "Arial" (color 0 0 0)))
 		(text "uart_0_external_connection" (rect 272 971 700 1955)(font "Arial" (color 128 0 0)(font_size 9)))
 		(text "rxd" (rect 437 995 892 2000)(font "Arial" (color 0 0 0)))

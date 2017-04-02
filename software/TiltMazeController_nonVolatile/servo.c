@@ -34,7 +34,7 @@ void servotask(void *pdata) {
 
 		servo0Angle = moveTowardsTarget(servo0TargetAngle, servo0Angle);
 		servo1Angle = moveTowardsTarget(servo1TargetAngle, servo1Angle);
-		printf("Servo0: %d, Servo1: %d\n", servo0Angle, servo1Angle);
+		//printf("Servo0: %d, Servo1: %d\n", servo0Angle, servo1Angle);
 		IOWR_ALTERA_AVALON_PIO_DATA(SERVO_0_BASE, servo0Angle);
 		IOWR_ALTERA_AVALON_PIO_DATA(SERVO_1_BASE, servo1Angle);
 		OSTimeDlyHMSM(0, 0, 0, REFRESH_TIME);
@@ -43,11 +43,16 @@ void servotask(void *pdata) {
 
 short moveTowardsTarget(short target, short current){
 	short output = current;
-	if(current > target){
-		output--;
-	}else if(current < target ){
-		output++;
+	short diff = target - current;
+
+	if (diff < MAX_CHANGE) {
+		output = current + diff;
+	} else if (diff > 0) {
+		output += MAX_CHANGE;
+	} else if (diff < 0) {
+		output -= MAX_CHANGE;
 	}
+
 	output = checkRotationLimits(output);
 	return output;
 }

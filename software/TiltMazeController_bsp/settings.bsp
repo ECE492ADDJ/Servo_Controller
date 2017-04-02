@@ -2,9 +2,9 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>ucosii</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Mar 28, 2017 12:00:53 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1490724053129</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>/afs/ualberta.ca/home/d/k/dktrotti/Servo_Controller/software/TiltMazeController_bsp</BspGeneratedLocation>
+        <BspGeneratedTimeStamp>Mar 31, 2017 10:29:21 AM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1490977761396</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>../../niosII_system.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>

@@ -14,12 +14,12 @@ Program Header:
          filesz 0x00001b68 memsz 0x00001b68 flags rw-
     LOAD off    0x000213e8 vaddr 0x008203e8 paddr 0x008203e8 align 2**12
          filesz 0x00000000 memsz 0x000076ec flags rw-
-    LOAD off    0x00021000 vaddr 0x01904000 paddr 0x01904000 align 2**12
+    LOAD off    0x00021000 vaddr 0x01400000 paddr 0x01400000 align 2**12
          filesz 0x00000020 memsz 0x00000020 flags r-x
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
-  0 .entry        00000020  01904000  01904000  00021000  2**5
+  0 .entry        00000020  01400000  01400000  00021000  2**5
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
   1 .exceptions   0000019c  01904020  00800000  00001020  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -37,52 +37,52 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   8 .debug_pubnames 000029dc  00000000  00000000  000223a0  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_info   00042c55  00000000  00000000  00024d7c  2**0
+  9 .debug_info   00043275  00000000  00000000  00024d7c  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_abbrev 0000d079  00000000  00000000  000679d1  2**0
+ 10 .debug_abbrev 0000d079  00000000  00000000  00067ff1  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_line   00024ff5  00000000  00000000  00074a4a  2**0
+ 11 .debug_line   00024ff5  00000000  00000000  0007506a  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_frame  00003074  00000000  00000000  00099a40  2**2
+ 12 .debug_frame  00003074  00000000  00000000  0009a060  2**2
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_str    0000301d  00000000  00000000  0009cab4  2**0
+ 13 .debug_str    0000301d  00000000  00000000  0009d0d4  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_loc    00013c9b  00000000  00000000  0009fad1  2**0
+ 14 .debug_loc    00013c9b  00000000  00000000  000a00f1  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_alt_sim_info 00000030  00000000  00000000  000b376c  2**2
+ 15 .debug_alt_sim_info 00000030  00000000  00000000  000b3d8c  2**2
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_ranges 00000b48  00000000  00000000  000b37a0  2**3
+ 16 .debug_ranges 00000b48  00000000  00000000  000b3dc0  2**3
                   CONTENTS, READONLY, DEBUGGING
- 17 .thread_model 00000006  00000000  00000000  000b9bb8  2**0
+ 17 .thread_model 00000006  00000000  00000000  000ba1d8  2**0
                   CONTENTS, READONLY
- 18 .cpu          0000000c  00000000  00000000  000b9bbe  2**0
+ 18 .cpu          0000000c  00000000  00000000  000ba1de  2**0
                   CONTENTS, READONLY
- 19 .qsys         00000001  00000000  00000000  000b9bca  2**0
+ 19 .qsys         00000001  00000000  00000000  000ba1ea  2**0
                   CONTENTS, READONLY
- 20 .simulation_enabled 00000001  00000000  00000000  000b9bcb  2**0
+ 20 .simulation_enabled 00000001  00000000  00000000  000ba1eb  2**0
                   CONTENTS, READONLY
- 21 .sysid_hash   00000004  00000000  00000000  000b9bcc  2**0
+ 21 .sysid_hash   00000004  00000000  00000000  000ba1ec  2**0
                   CONTENTS, READONLY
- 22 .sysid_base   00000004  00000000  00000000  000b9bd0  2**0
+ 22 .sysid_base   00000004  00000000  00000000  000ba1f0  2**0
                   CONTENTS, READONLY
- 23 .sysid_time   00000004  00000000  00000000  000b9bd4  2**0
+ 23 .sysid_time   00000004  00000000  00000000  000ba1f4  2**0
                   CONTENTS, READONLY
- 24 .stderr_dev   0000000b  00000000  00000000  000b9bd8  2**0
+ 24 .stderr_dev   0000000b  00000000  00000000  000ba1f8  2**0
                   CONTENTS, READONLY
- 25 .stdin_dev    0000000b  00000000  00000000  000b9be3  2**0
+ 25 .stdin_dev    0000000b  00000000  00000000  000ba203  2**0
                   CONTENTS, READONLY
- 26 .stdout_dev   0000000b  00000000  00000000  000b9bee  2**0
+ 26 .stdout_dev   0000000b  00000000  00000000  000ba20e  2**0
                   CONTENTS, READONLY
- 27 .sopc_system_name 0000000d  00000000  00000000  000b9bf9  2**0
+ 27 .sopc_system_name 0000000d  00000000  00000000  000ba219  2**0
                   CONTENTS, READONLY
- 28 .quartus_project_dir 00000033  00000000  00000000  000b9c06  2**0
+ 28 .quartus_project_dir 0000004f  00000000  00000000  000ba226  2**0
                   CONTENTS, READONLY
- 29 .jdi          000051db  00000000  00000000  000b9c39  2**0
+ 29 .jdi          000051db  00000000  00000000  000ba275  2**0
                   CONTENTS, READONLY
- 30 .sopcinfo     0009026b  00000000  00000000  000bee14  2**0
+ 30 .sopcinfo     000902b1  00000000  00000000  000bf450  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
-01904000 l    d  .entry	00000000 .entry
+01400000 l    d  .entry	00000000 .entry
 01904020 l    d  .exceptions	00000000 .exceptions
 0080019c l    d  .text	00000000 .text
 0081c3fc l    d  .rodata	00000000 .rodata
@@ -373,7 +373,7 @@ SYMBOL TABLE:
 00000000  w      *UND*	00000000 __errno
 0081abec g     F .text	0000007c get_DDRAM_addr
 008134f0 g     F .text	000002e0 OS_TCBInit
-01904000 g     F .entry	0000001c __reset
+01400000 g     F .entry	0000001c __reset
 0081e872 g     O .rwdata	00000002 OSTmrWheelTblSize
 00800000 g       *ABS*	00000000 __flash_exceptions_start
 0081e812 g     O .rwdata	00000002 OSEventSize
@@ -840,35 +840,35 @@ SYMBOL TABLE:
 
 Disassembly of section .entry:
 
-01904000 <__reset>:
+01400000 <__reset>:
 #if NIOS2_ICACHE_SIZE > 0 && defined(ALT_ALLOW_CODE_AT_RESET) && !defined(ALT_SIM_OPTIMIZE)
     /* Assume the instruction cache size is always a power of two. */
 #if NIOS2_ICACHE_SIZE > 0x8000
     movhi r2, %hi(NIOS2_ICACHE_SIZE)
 #else
     movui r2, NIOS2_ICACHE_SIZE
- 1904000:	00840014 	movui	r2,4096
+ 1400000:	00840014 	movui	r2,4096
 #endif
 
 0:
     initi r2
- 1904004:	1001483a 	initi	r2
+ 1400004:	1001483a 	initi	r2
     addi r2, r2, -NIOS2_ICACHE_LINE_SIZE
- 1904008:	10bff804 	addi	r2,r2,-32
+ 1400008:	10bff804 	addi	r2,r2,-32
     bgt r2, zero, 0b
- 190400c:	00bffd16 	blt	zero,r2,1904004 <__reset+0x4>
+ 140000c:	00bffd16 	blt	zero,r2,1400004 <__reset+0x4>
  * Jump to the _start entry point in the .text section if reset code
  * is allowed or if optimizing for RTL simulation.
  */
 #if defined(ALT_ALLOW_CODE_AT_RESET) || defined(ALT_SIM_OPTIMIZE)
     /* Jump to the _start entry point in the .text section. */
     movhi r1, %hi(_start)
- 1904010:	00402034 	movhi	at,128
+ 1400010:	00402034 	movhi	at,128
     ori r1, r1, %lo(_start)
- 1904014:	08406714 	ori	at,at,412
+ 1400014:	08406714 	ori	at,at,412
     jmp r1
- 1904018:	0800683a 	jmp	at
- 190401c:	00000000 	call	0 <OSTCBStkPtr_OFFSET>
+ 1400018:	0800683a 	jmp	at
+ 140001c:	00000000 	call	0 <OSTCBStkPtr_OFFSET>
 
 Disassembly of section .exceptions:
 
@@ -1806,11 +1806,8 @@ short moveTowardsTarget(short target, short current){
   8007d8:	e0bffd8b 	ldhu	r2,-10(fp)
   8007dc:	10bffd84 	addi	r2,r2,-10
   8007e0:	e0bffd8d 	sth	r2,-10(fp)
-//	if(current > target){
-//		output--;
-//	}else if(current < target ){
-//		output++;
-//	}
+	}
+
 	output = checkRotationLimits(output);
   8007e4:	e13ffd8f 	ldh	r4,-10(fp)
   8007e8:	08008080 	call	800808 <checkRotationLimits>

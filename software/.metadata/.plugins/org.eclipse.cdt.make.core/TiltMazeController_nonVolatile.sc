@@ -2,14 +2,13 @@
 <?scdStore version="2"?>
 
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.68756965;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.68756965.;cdt.managedbuild.tool.gnu.cpp.compiler.base.276436622;cdt.managedbuild.tool.gnu.cpp.compiler.input.1614970427">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.399135832;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.399135832.;cdt.managedbuild.tool.gnu.cpp.compiler.base.1456821365;cdt.managedbuild.tool.gnu.cpp.compiler.input.1739690635">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile_bsp/UCOSII/inc"/>
-<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile_bsp/HAL/inc"/>
-<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile_bsp/"/>
-<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile_bsp/drivers/inc"/>
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_nonVolatile_bsp/UCOSII/inc"/>
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_nonVolatile_bsp/HAL/inc"/>
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_nonVolatile_bsp/"/>
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_nonVolatile_bsp/drivers/inc"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../../nios2-elf/include/c++/4.1.2"/>
-<includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../../nios2-elf/include/c++/4.1.2/nios2-elf/mno-hw-mul"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../../nios2-elf/include/c++/4.1.2/nios2-elf"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../../nios2-elf/include/c++/4.1.2/backward"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/include"/>
@@ -311,14 +310,15 @@
 <definedSymbol symbol="__hal__=1"/>
 <definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
 <definedSymbol symbol="__ucosii__=1"/>
+<definedSymbol symbol="ALTERA_AVALON_UART_SMALL=1"/>
 </collector>
 </instance>
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.68756965;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.68756965.;cdt.managedbuild.tool.gnu.c.compiler.base.843573358;cdt.managedbuild.tool.gnu.c.compiler.input.1728995856">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.399135832;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.399135832.;cdt.managedbuild.tool.gnu.c.compiler.base.1717678907;cdt.managedbuild.tool.gnu.c.compiler.input.654340971">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile_bsp/UCOSII/inc"/>
-<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile_bsp/HAL/inc"/>
-<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile_bsp/"/>
-<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController_nonVolatile_bsp/drivers/inc"/>
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_nonVolatile_bsp/UCOSII/inc"/>
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_nonVolatile_bsp/HAL/inc"/>
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_nonVolatile_bsp/"/>
+<includePath path="/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_nonVolatile_bsp/drivers/inc"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/include"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/include-fixed"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/include"/>
@@ -607,6 +607,7 @@
 <definedSymbol symbol="__hal__=1"/>
 <definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
 <definedSymbol symbol="__ucosii__=1"/>
+<definedSymbol symbol="ALTERA_AVALON_UART_SMALL=1"/>
 </collector>
 </instance>
 </scannerInfo>

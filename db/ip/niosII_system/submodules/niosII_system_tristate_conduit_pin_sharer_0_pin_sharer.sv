@@ -44,7 +44,7 @@ module niosII_system_tristate_conduit_pin_sharer_0_pin_sharer (
   //generic_tristate_controller_0.tcm signals
     ,input  logic[ 21 :0 ] tcs0_tcm_address_out
     ,input  logic[ 0 :0 ] tcs0_tcm_read_n_out
-    ,input  logic[ 0 :0 ] tcs0_tcm_write_out
+    ,input  logic[ 0 :0 ] tcs0_tcm_write_n_out
     ,output logic[ 7 :0 ]  tcs0_tcm_data_in
     ,input  logic[ 7 :0 ]  tcs0_tcm_data_out
     ,input  logic tcs0_tcm_data_outen
@@ -58,7 +58,7 @@ module niosII_system_tristate_conduit_pin_sharer_0_pin_sharer (
 		     
     ,output  logic[ 21 :0 ] generic_tristate_controller_0_tcm_address_out
     ,output  logic[ 0 :0 ] generic_tristate_controller_0_tcm_read_n_out
-    ,output  logic[ 0 :0 ] generic_tristate_controller_0_tcm_write_out
+    ,output  logic[ 0 :0 ] generic_tristate_controller_0_tcm_write_n_out
     ,input   logic[ 7 :0 ]  generic_tristate_controller_0_tcm_data_in
     ,output  logic[ 7 :0 ]  generic_tristate_controller_0_tcm_data_out
     ,output  logic generic_tristate_controller_0_tcm_data_outen
@@ -127,7 +127,7 @@ module niosII_system_tristate_conduit_pin_sharer_0_pin_sharer (
 
     assign generic_tristate_controller_0_tcm_address_out = tcs0_tcm_address_out;
     assign generic_tristate_controller_0_tcm_read_n_out = tcs0_tcm_read_n_out;
-    assign generic_tristate_controller_0_tcm_write_out = tcs0_tcm_write_out;
+    assign generic_tristate_controller_0_tcm_write_n_out = tcs0_tcm_write_n_out;
     assign tcs0_tcm_data_in = generic_tristate_controller_0_tcm_data_in;
     assign generic_tristate_controller_0_tcm_data_out =  tcs0_tcm_data_out;
     assign generic_tristate_controller_0_tcm_data_outen = tcs0_tcm_data_outen;

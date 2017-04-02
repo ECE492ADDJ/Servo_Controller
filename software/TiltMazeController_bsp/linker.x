@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_qsys_0' in SOPC Builder design 'niosII_system'
  * SOPC Builder design path: ../../niosII_system.sopcinfo
  *
- * Generated: Thu Mar 23 13:37:56 MDT 2017
+ * Generated: Fri Mar 31 10:29:22 MDT 2017
  */
 
 /*
@@ -51,9 +51,10 @@
 MEMORY
 {
     sdram_0 : ORIGIN = 0x800000, LENGTH = 8388608
-    generic_tristate_controller_0 : ORIGIN = 0x1400000, LENGTH = 4194304
+    reset : ORIGIN = 0x1400000, LENGTH = 32
+    generic_tristate_controller_0 : ORIGIN = 0x1400020, LENGTH = 4194272
     sram_0 : ORIGIN = 0x1880000, LENGTH = 524288
-    reset : ORIGIN = 0x1904000, LENGTH = 32
+    onchip_memory2_0_BEFORE_EXCEPTION : ORIGIN = 0x1904000, LENGTH = 32
     onchip_memory2_0 : ORIGIN = 0x1904020, LENGTH = 16352
 }
 

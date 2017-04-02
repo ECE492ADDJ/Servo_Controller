@@ -121,8 +121,8 @@ ELF_PATCH_FLAG  += --cpu_name $(CPU_NAME)
 ALT_CFLAGS += -mno-hw-div
 
 # Hardware Multiplier present. 
-# setting HARDWARE_MULTIPLY is false
-ALT_CFLAGS += -mno-hw-mul
+# setting HARDWARE_MULTIPLY is true
+ALT_CFLAGS += -mhw-mul
 
 # Hardware Mulx present. 
 # setting HARDWARE_MULX is false
@@ -151,17 +151,26 @@ SOPC_SYSID_FLAG += --id=0
 ELF_PATCH_FLAG  += --id 0
 
 # The SOPC System ID Base Address 
-# setting SOPC_SYSID_BASE_ADDRESS is 0x11090a0
-SOPC_SYSID_FLAG += --sidp=0x11090a0
-ELF_PATCH_FLAG  += --sidp 0x11090a0
+# setting SOPC_SYSID_BASE_ADDRESS is 0x19090b8
+SOPC_SYSID_FLAG += --sidp=0x19090b8
+ELF_PATCH_FLAG  += --sidp 0x19090b8
 
 # The SOPC Timestamp 
-# setting SOPC_TIMESTAMP is 1490285383
-SOPC_SYSID_FLAG += --timestamp=1490285383
-ELF_PATCH_FLAG  += --timestamp 1490285383
+# setting SOPC_TIMESTAMP is 1491155961
+SOPC_SYSID_FLAG += --timestamp=1491155961
+ELF_PATCH_FLAG  += --timestamp 1491155961
 
 # Small-footprint (polled mode) driver none 
 # setting altera_avalon_jtag_uart_driver.enable_small_driver is false
+
+# Enable driver ioctl() support. This feature is not compatible with the 
+# 'small' driver; ioctl() support will not be compiled if either the UART 
+# 'enable_small_driver' or HAL 'enable_reduced_device_drivers' settings are 
+# enabled. none 
+# setting altera_avalon_uart_driver.enable_ioctl is false
+
+# Small-footprint (polled mode) driver none 
+# setting altera_avalon_uart_driver.enable_small_driver is true
 
 # Build a custom version of newlib with the specified space-separated compiler 
 # flags. The custom newlib build will be placed in the &lt;bsp root>/newlib 
@@ -347,6 +356,12 @@ ALT_INCLUDE_DIRS += $(ALT_LIBRARY_ROOT_DIR)/HAL/inc
 #------------------------------------------------------------------------------
 
 ALT_CPPFLAGS += -D__ucosii__
+
+#------------------------------------------------------------------------------
+#        SOFTWARE COMPONENT & DRIVER SETTING-PRODUCED DEFINITIONS
+#------------------------------------------------------------------------------
+
+ALT_CPPFLAGS += -DALTERA_AVALON_UART_SMALL
 
 #END MANAGED
 

@@ -68,13 +68,12 @@ library ieee;
 		SRAM_CE_N	:	out	std_logic;
 		
 		-- Flash
-		
-		FL_ADDR		: out std_logic_vector(21 downto 0);
-		FL_CE_N		: out	std_logic_vector(0 downto 0);
-		FL_OE_N		: out std_logic_vector(0 downto 0);
-		FL_DQ			: inout std_logic_vector(7 downto 0);
-		FL_RST_N		: out std_logic_vector(0 downto 0);
-		FL_WE_N		: out std_logic_vector(0 downto 0)
+		FL_ADDR		:	out std_logic_vector(21 downto 0);
+		FL_CE_N		:	out std_logic_vector(0 downto 0);
+		FL_OE_N		:	out std_logic_vector(0 downto 0);
+		FL_DQ			:	inout std_logic_vector(7 downto 0);
+		FL_RST_N		:	out std_logic_vector(0 downto 0);
+		FL_WE_N		:	out std_logic_vector(0 downto 0)
 		
 	);
 end top_level;
@@ -123,7 +122,7 @@ architecture structure of top_level is
 				tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_read_n_out       : out   std_logic_vector(0 downto 0);                     -- generic_tristate_controller_0_tcm_read_n_out
             tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_data_out         : inout std_logic_vector(7 downto 0)  := (others => 'X'); -- generic_tristate_controller_0_tcm_data_out
             tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_chipselect_n_out : out   std_logic_vector(0 downto 0);                     -- generic_tristate_controller_0_tcm_chipselect_n_out
-            tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_write_out        : out   std_logic_vector(0 downto 0);                     -- generic_tristate_controller_0_tcm_write_out
+            tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_write_n_out      : out   std_logic_vector(0 downto 0);                     -- generic_tristate_controller_0_tcm_write_n_out
             tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_address_out      : out   std_logic_vector(21 downto 0)                     -- generic_tristate_controller_0_tcm_address_out
  );
     end component niosII_system;
@@ -141,6 +140,8 @@ begin
 	
 	DRAM_UDQM <= DQM(1);
 	DRAM_LDQM <= DQM(0);
+	
+	FL_RST_N(0) <= '1';
 	
 	-- Component Instantiation Statement (optional)
 	
@@ -181,11 +182,11 @@ begin
 				key_0_external_connection_export      	 => KEY(0),
 				uart_0_external_connection_rxd         => UART_RXD,          --         rs232_0_external_interface.RXD
             uart_0_external_connection_txd          => UART_TXD,        --                                   .TXD
-				tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_read_n_out        => FL_OE_N,        --         tristate_conduit_bridge_0_out.generic_tristate_controller_0_tcm_read_n_out
-            tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_data_out          => FL_DQ,          --                                      .generic_tristate_controller_0_tcm_data_out
-            tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_chipselect_n_out  => FL_CE_N,  --                                      .generic_tristate_controller_0_tcm_chipselect_n_out
-            tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_write_out       => FL_WE_N,       --                                    .generic_tristate_controller_0_tcm_begintransfer_out
-            tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_address_out       => FL_ADDR       --                                      .generic_tristate_controller_0_tcm_address_out
+				tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_read_n_out       => FL_OE_N,      --      tristate_conduit_bridge_0_out.generic_tristate_controller_0_tcm_read_n_out
+            tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_data_out         => FL_DQ,         --                                   .generic_tristate_controller_0_tcm_data_out
+            tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_chipselect_n_out => FL_CE_N, --                                   .generic_tristate_controller_0_tcm_chipselect_n_out
+            tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_write_n_out      => FL_WE_N,      --                                   .generic_tristate_controller_0_tcm_write_n_out
+            tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_address_out      => FL_ADDR
         );
 
 end structure;

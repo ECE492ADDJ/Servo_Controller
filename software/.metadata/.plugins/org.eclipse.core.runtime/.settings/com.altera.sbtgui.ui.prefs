@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-newSoftwareExampleWizardPage.defaultLocation=/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController2
-newSoftwareExampleWizardPage.sopcinfoFile=/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/niosII_system.sopcinfo
-newSoftwareExampleWizardPage2.newBspLocation=/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/project_servo/software/TiltMazeController2_bsp
+newSoftwareExampleWizardPage.defaultLocation=/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_nonVolatile
+newSoftwareExampleWizardPage.sopcinfoFile=/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/niosII_system.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=/afs/ualberta.ca/home/d/j/djr1/ece492_projects/ece492_projects/Servo_Controller/software/TiltMazeController_nonVolatile_bsp

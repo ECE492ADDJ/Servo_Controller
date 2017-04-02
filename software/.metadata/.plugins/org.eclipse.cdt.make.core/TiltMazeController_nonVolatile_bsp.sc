@@ -2,7 +2,7 @@
 <?scdStore version="2"?>
 
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1893508852;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1893508852.;cdt.managedbuild.tool.gnu.cpp.compiler.base.736975215;cdt.managedbuild.tool.gnu.cpp.compiler.input.1676524044">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1365233270;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1365233270.;cdt.managedbuild.tool.gnu.cpp.compiler.base.1055909493;cdt.managedbuild.tool.gnu.cpp.compiler.input.1451314994">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../../nios2-elf/include/c++/4.1.2"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../../nios2-elf/include/c++/4.1.2/nios2-elf"/>
@@ -304,7 +304,7 @@
 <definedSymbol symbol="nios2_little_endian=1"/>
 </collector>
 </instance>
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1893508852;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1893508852.;cdt.managedbuild.tool.gnu.c.compiler.base.1937343861;cdt.managedbuild.tool.gnu.c.compiler.input.835280197">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1365233270;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1365233270.;cdt.managedbuild.tool.gnu.c.compiler.base.185964984;cdt.managedbuild.tool.gnu.c.compiler.input.1323826504">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/include"/>
 <includePath path="/OPT/altera/12.1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/include-fixed"/>

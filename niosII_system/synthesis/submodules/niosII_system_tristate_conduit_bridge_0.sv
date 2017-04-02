@@ -36,8 +36,8 @@ module niosII_system_tristate_conduit_bridge_0 (
     ,inout  wire [ 7 :0 ]  generic_tristate_controller_0_tcm_data_out
     ,input  logic[ 0 :0 ] tcs_generic_tristate_controller_0_tcm_chipselect_n_out
     ,output  wire [ 0 :0 ] generic_tristate_controller_0_tcm_chipselect_n_out
-    ,input  logic[ 0 :0 ] tcs_generic_tristate_controller_0_tcm_write_out
-    ,output  wire [ 0 :0 ] generic_tristate_controller_0_tcm_write_out
+    ,input  logic[ 0 :0 ] tcs_generic_tristate_controller_0_tcm_write_n_out
+    ,output  wire [ 0 :0 ] generic_tristate_controller_0_tcm_write_n_out
     ,input  logic[ 21 :0 ] tcs_generic_tristate_controller_0_tcm_address_out
     ,output  wire [ 21 :0 ] generic_tristate_controller_0_tcm_address_out
 		     
@@ -134,28 +134,28 @@ module niosII_system_tristate_conduit_bridge_0 (
         
 
 
- // ** Output Pin generic_tristate_controller_0_tcm_write_out 
+ // ** Output Pin generic_tristate_controller_0_tcm_write_n_out 
  
-    reg                       generic_tristate_controller_0_tcm_write_outen_reg;     
+    reg                       generic_tristate_controller_0_tcm_write_n_outen_reg;     
   
     always@(posedge clk) begin
 	 if( reset ) begin
-	   generic_tristate_controller_0_tcm_write_outen_reg <= 'b0;
+	   generic_tristate_controller_0_tcm_write_n_outen_reg <= 'b0;
 	 end
 	 else begin
-	   generic_tristate_controller_0_tcm_write_outen_reg <= 'b1;
+	   generic_tristate_controller_0_tcm_write_n_outen_reg <= 'b1;
 	 end
      end		     
    
  
-    reg [ 0 : 0 ] generic_tristate_controller_0_tcm_write_out_reg;   
+    reg [ 0 : 0 ] generic_tristate_controller_0_tcm_write_n_out_reg;   
 
      always@(posedge clk) begin
-	 generic_tristate_controller_0_tcm_write_out_reg   <= tcs_generic_tristate_controller_0_tcm_write_out[ 0 : 0 ];
+	 generic_tristate_controller_0_tcm_write_n_out_reg   <= tcs_generic_tristate_controller_0_tcm_write_n_out[ 0 : 0 ];
       end
           
  
-    assign 	generic_tristate_controller_0_tcm_write_out[ 0 : 0 ] = generic_tristate_controller_0_tcm_write_outen_reg ? generic_tristate_controller_0_tcm_write_out_reg : 'z ;
+    assign 	generic_tristate_controller_0_tcm_write_n_out[ 0 : 0 ] = generic_tristate_controller_0_tcm_write_n_outen_reg ? generic_tristate_controller_0_tcm_write_n_out_reg : 'z ;
         
 
 

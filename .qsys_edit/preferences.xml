@@ -14,8 +14,7 @@
    <frequency preferredWidth="245" />
   </columns>
  </clocktable>
- <library
-   expandedCategories="Library/Interface Protocols/Serial,Library,Library/University Program/Communications,Project,Library/Interface Protocols,Library/University Program" />
+ <library expandedCategories="Library,Project" />
  <window width="1100" height="800" x="-9" y="20" />
  <hdlexample language="VHDL" />
 </preferences>

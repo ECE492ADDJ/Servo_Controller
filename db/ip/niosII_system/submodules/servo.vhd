@@ -77,7 +77,7 @@ send_pulse: process(clk) is
 	if rising_edge(clk) then
 		refreshTime := refreshTime + 1;
 		
-		if (refreshTime >= 1000000) then
+		if (refreshTime >= 250000) then
 			refreshTime := 0;
 			pulseTime := currentPulseWidth * frequency;
 		end if;

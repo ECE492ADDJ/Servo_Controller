@@ -19,12 +19,10 @@
 /* Definition of Task Stacks */
 #define   TASK_STACKSIZE       2048
 OS_STK    task_servo_stk[TASK_STACKSIZE];
-OS_STK    task_uart_stk[TASK_STACKSIZE];
 OS_STK    task_main_stk[TASK_STACKSIZE];
 
 /* Definition of Task Priorities */
-#define TASK_SERVO_PRIORITY     3
-#define TASK_UART_PRIORITY      2
+#define TASK_SERVO_PRIORITY     2
 #define TASK_MAIN_PRIORITY      1
 
 /* Definition of global variables */
@@ -112,16 +110,6 @@ int main(void)
 				TASK_STACKSIZE,
 				NULL,
 				0);
-
-	OSTaskCreateExt(uarttask,
-			NULL,
-			(void *)&task_uart_stk[TASK_STACKSIZE-1],
-			TASK_UART_PRIORITY,
-			TASK_UART_PRIORITY,
-			task_uart_stk,
-			TASK_STACKSIZE,
-			NULL,
-			0);
 
 	OSTaskCreateExt(maintask,
 			NULL,
