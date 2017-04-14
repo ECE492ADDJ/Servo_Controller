@@ -1,3 +1,8 @@
+--Filename:       top_level.vhd
+--File type:      client-side vhdl
+--Author:         David Ross
+--Description:    Top level wrapper for the client
+
 library ieee;
 
 -- Commonly imported packages:
