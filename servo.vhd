@@ -1,3 +1,7 @@
+--Filename:       servo.vhd
+--File type:      client-side vhdl code
+--Author:         David Ross
+--Description:    Hardware description for the servo control 
 library ieee;
 -- Commonly imported packages:
 
